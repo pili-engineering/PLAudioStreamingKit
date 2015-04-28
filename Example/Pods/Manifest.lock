@@ -1,0 +1,14 @@
+PODS:
+  - PLAudioStreamingKit (0.1.0)
+
+DEPENDENCIES:
+  - PLAudioStreamingKit (from `../`)
+
+EXTERNAL SOURCES:
+  PLAudioStreamingKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PLAudioStreamingKit: 898813ce420f7868a339bbf44a5cf62a17da5a31
+
+COCOAPODS: 0.35.0
