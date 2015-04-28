@@ -9,11 +9,8 @@
 #import "PLViewController.h"
 #import <PLAudioStreamingKit/PLAudioStreamingKit.h>
 
-//#define PUSH_URL    @"rtmp://123.59.63.1/iossdk/test"
-//#define PUSH_URL    @"rtmp://115.231.182.72/pili-test/stream01?key=abc"
-//#define PUSH_URL    @"rtmp://pub.z1.glb.pili.qiniup.com/dayzhtest/test?key=25d79b15-4b50-4fb1-af2e-9898e3c19df5"
-//#define PUSH_URL    @"rtmp://115.231.182.72/iostest/test?key=b176bf57-687d-443d-a0fb-bde47156f0a1"
-#define PUSH_URL    @"rtmp://10.0.1.5/live/inrtmp"
+#warning 这里替换为你的推流地址
+#define PUSH_URL    @"YOUR_PUSH_URL_HERE"
 
 const char *stateNames[] = {
     "Unknow",
