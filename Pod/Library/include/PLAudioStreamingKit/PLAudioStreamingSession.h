@@ -37,16 +37,14 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  *
  * @abstract 推流中的核心类。
  *
- * @discussion 一个 PLAudioStreamingSession 实例会包含了对视频源、音频源的控制，并且对流的操作及流状态的返回都是通过它来完成的。
- *
- * updated 2015-04-27
+ * @discussion 一个 PLAudioStreamingSession 实例会包含了对音频源的控制，并且对流的操作及流状态的返回都是通过它来完成的。
  */
 @interface PLAudioStreamingSession : NSObject
 
 /*!
  * @property configuration
  *
- * @abstract 音视频编码信息均包含其中。
+ * @abstract 音频编码信息均包含其中。
  */
 @property (nonatomic, PL_STRONG) PLAudioStreamingConfiguration *configuration;  // reset will not work until startWithPushURL: invoked.
 
@@ -81,11 +79,9 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 /*!
  * 初始化方法
  *
- * @param configuration 用于音视频编码的配置信息
+ * @param configuration 用于音频编码的配置信息
  *
  * @return PLAudioStreamingSession 实例
- *
- * @discussion 初始化方法会优先使用后置摄像头，如果发现设备没有后置摄像头，会判断是否有前置摄像头，如果都没有，便会返回 nil。
  */
 - (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration;
 

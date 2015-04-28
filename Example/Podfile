@@ -3,9 +3,3 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'PLAudioStreamingKit', :exclusive => true do
   pod "PLAudioStreamingKit", :path => "../"
 end
-
-target 'Tests', :exclusive => true do
-  pod "PLAudioStreamingKit", :path => "../"
-
-  
-end
