@@ -7,6 +7,7 @@ PLAudioStreamingKit 是为 **pili 流媒体云服务** 流媒体云服务提供�
 - [快速开始](#快速开始)
 	- [配置工程](#配置工程)
 	- [示例代码](#示例代码)
+- [编码参数](#编码参数)
 - [文档支持](#文档支持)
 - [功能特性](#功能特性)
 - [系统要求](#系统要求)
@@ -90,6 +91,23 @@ if (PLAuthorizationStatusNotDetermined == status) {
 // 停止推流
 [self.session stop];
 ```
+
+## 编码参数
+
+初始化 ```PLAudioStreamingConfiguration``` 时，可以指定 Bitrate
+
+```
+typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
+    PLStreamingAudioBitRate_64Kbps = 64 * 1024,
+    PLStreamingAudioBitRate_96Kbps = 96 * 1024,
+    PLStreamingAudioBitRate_128Kbps = 128 * 1024,
+    PLStreamingAudioBitRate_Default = PLStreamingAudioBitRate_128Kbps
+};
+```
+
+默认的 configuration 使用 128Kbps 码率。
+
+当前版本采样率恒定为 48000
 
 ## 文档支持
 
