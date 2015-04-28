@@ -1,6 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PLAudioStreamingKit"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PLAudioStreamingKit" ${PODS_ROOT}/PLAudioStreamingKit/PLAudioStreamingKit/lib/include
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Library/lib" "$(PODS_ROOT)/../../Pod/Library/lib" "$(PODS_ROOT)/../../Pod/Library/lib"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/PLAudioStreamingKit"
-OTHER_LDFLAGS = -ObjC -l"Pods-Tests-PLAudioStreamingKit"
+OTHER_LDFLAGS = -ObjC -l"PLAudioStreamingKit" -l"Pods-Tests-PLAudioStreamingKit" -l"crypto-ios" -l"ssl-ios" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreAudio" -framework "UIKit"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

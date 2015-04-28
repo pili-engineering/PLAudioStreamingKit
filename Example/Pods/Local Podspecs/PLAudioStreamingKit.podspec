@@ -9,30 +9,28 @@
 
 Pod::Spec.new do |s|
   s.name             = "PLAudioStreamingKit"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of PLAudioStreamingKit."
-  s.description      = <<-DESC
-                       An optional longer description of PLAudioStreamingKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PLAudioStreamingKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.version          = "1.0.0"
+  s.summary          = "Pili iOS AAC Audio streaming framework via RTMP."
+  s.homepage         = "https://github.com/pili-io/PLAudioStreamingKit"
+  s.license          = 'Apache License, Version 2.0'
   s.author           = { "0dayZh" => "0day.zh@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PLAudioStreamingKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/pili-io/PLAudioStreamingKit.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'PLAudioStreamingKit' => ['Pod/Assets/*.png']
-  }
+  s.public_header_files = 'Pod/Library/include/**/*.h'
+  s.source_files = 'Pod/Library/include/**/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = ['UIKit', 'AVFoundation', 'AudioToolbox', 'CoreAudio']
+  s.libraries = 'z'
+
+  s.default_subspec = "precompiled"
+
+  s.subspec "precompiled" do |ss|
+    ss.preserve_paths         = "Pod/Library/include/**/*.h", 'Pod/Library/lib/*.a'
+    ss.vendored_libraries   = 'Pod/Library/lib/*.a'
+    ss.libraries = 'PLAudioStreamingKit'
+    ss.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/PLAudioStreamingKit/lib/include" }
+  end
 end

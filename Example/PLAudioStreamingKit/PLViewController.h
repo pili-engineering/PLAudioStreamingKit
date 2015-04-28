@@ -10,4 +10,6 @@
 
 @interface PLViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *actionButton;
+
 @end
