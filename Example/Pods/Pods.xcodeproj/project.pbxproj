@@ -10,27 +10,14 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00A4A28EA1851A0DFF5A865D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AVFoundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>00B2DF98ED104180205128BD</key>
+		<key>00E0D8CF097FA4F256B2282F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>54FEE65568C0A30BB6E1E973</string>
+			<string>F1E33F32B8921D4391B4DC6C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0241B4C082B6D4DD5DE094A7</key>
+		<key>0348F65B0947643607D1D046</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -39,40 +26,912 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>hmac.h</string>
+			<string>pqueue.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/hmac.h</string>
+			<string>Pod/Library/include/openssl/pqueue.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>02C7D76267FFCBE5462BE4D8</key>
+		<key>046AC7E694DEC2956F91D78E</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>AudioToolbox.framework</string>
+			<string>md5.h</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
+			<string>Pod/Library/include/openssl/md5.h</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>06A00E4F7B4D87C6D599E608</key>
+		<key>0754E505D0B6DB467A818C8F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>59E43CC58416F17E61655E0E</string>
+			<string>85AA746CCEA73AE8E377DB80</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>071CE8E2A601430C88E525BD</key>
+		<key>088E6A640ADC4CBDACA1C55E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5B1D1D7E5F2427A9A2E7C323</string>
+			<string>E7F3C5A4B2AA76A37E542B5E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>072E57276A231C289D62F5D2</key>
+		<key>08B1152D8B66DCA0FF2B16CE</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>734850924D0F0A7777B972CE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D514D8E58FC738D816040F80</string>
+				<string>9F65791F642D9629A1D31B7B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>573EC553818ED30D3CB91949</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-PLAudioStreamingKit</string>
+			<key>productName</key>
+			<string>Pods-PLAudioStreamingKit</string>
+			<key>productReference</key>
+			<string>0F42560D2A14F3BF04998EA8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>093A3D922504A2A48C0410EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>69E9A6E3BF786DDFD3AA2A6C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0A14231594F9CBEC9738E927</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ripemd.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ripemd.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0AB7749D537D4EC112135DA8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E80EE3BC6D4602AC94D649A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F42560D2A14F3BF04998EA8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-PLAudioStreamingKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0FE0667F49E4C0AAE3D16081</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>cms.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/cms.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10A8908F606BAD3CE8FC0CE4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PLAudioStreamingConfiguration.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/PLAudioStreamingKit/PLAudioStreamingConfiguration.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11352522B954C2B7FABDE0BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12C23BABFA53772DD19AE12C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>tls1.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/tls1.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12C7BA34584391C4F65C453A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>dh.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/dh.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1319DD37B80B07DEE8A34964</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>cast.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/cast.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13CA87B2F6434539A919CDA4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1409C726631028A3BA03E37E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9F05C82B7170133D673438DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>143FC28B82A2D0FB3C361358</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0FE0667F49E4C0AAE3D16081</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>196335E14E19EEB0277AE23F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D76DB1E0A6B97B8C5466DAFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19CCACC5B725D248DD3E2CAF</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>AC091EB4FCFAB11E6B206819</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>2F00274072D4BD1B5530C605</string>
+			<key>remoteInfo</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+		</dict>
+		<key>1AB9DE63AD19C73752E5258A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E25553D6D00631401112154C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1B8C8D7B536C5C9FEE04F44A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ts.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ts.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1C878C50490939DC24099857</key>
+		<dict>
+			<key>fileRef</key>
+			<string>76A2508EC07F40A1F40A25D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1D4ADFFD7D54882C67911E61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F90E8CDCB3651A1ACCCCE49F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1DA1B9AA0DB31B690FEAB934</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ossl_typ.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ossl_typ.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DA9FC99352949F84FCC3384</key>
+		<dict>
+			<key>fileRef</key>
+			<string>10A8908F606BAD3CE8FC0CE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1ECCDFCFA8ADFEE22A1D173D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F39435EACB165E2CC8D2D1A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8B36C474B6BD22FB68D2076</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20DA3516F37AE8105B6A5160</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA5FA3048EDAAB5ACE34663B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>22ED8A2D46FD24326594A44E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BA11F2F59166929B06AEB448</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23E39A223224DA79E9C07CD1</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6C14532FA8ADAC2FBF1E0297</string>
+				<string>A1B56F52E8B279863AE65FEF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2474150E03F76AB040727C13</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FB13F5CC71795E06A29A9526</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25177C726EB3C2F6A4EAE6E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AECCFADB87629E238FEA0F34</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2588D0ADAE782D6564A00F24</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ssl3.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ssl3.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>297AB923D63A95F67A816D43</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>modes.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/modes.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>29CD80FB30DFFFDA6B9E1384</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D254EEFBD7DABE195E3189F6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B2E89A5C9653696E63AADBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1319DD37B80B07DEE8A34964</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B756710987FF647E561AFF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ssl23.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ssl23.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2F00274072D4BD1B5530C605</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>23E39A223224DA79E9C07CD1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>64BEB417F67C8FF369F0BC88</string>
+				<string>3D0E3ED5BACB1306C8A66AA9</string>
+				<string>510D25548C3BECCF18E86A95</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+			<key>productName</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+			<key>productReference</key>
+			<string>51D1A6FA675F79B6B60258D8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>2F804397A65D16A8222A9FBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>symhacks.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/symhacks.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30385616C0C3F33485A1C018</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B659BCA262065016F63D4043</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>303B38C689FC2F053EE8DD8E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>297AB923D63A95F67A816D43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30A5BA7F36A5F43375DF125C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>buffer.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/buffer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35503875101CB11F043CD074</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2588D0ADAE782D6564A00F24</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>35E6998B03B13C5EE5B6B2FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>x509v3.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/x509v3.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38AC0C7E1ECBC3F22FAA18BA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4AC292D2B32C7EFB9EBBF732</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>38DF6E4833CF543DC5E92DA5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>rand.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/rand.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3922E69271711B73F1E85CF8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39384EAD2C28FF03C5C59DDA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>krb5_asn.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/krb5_asn.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A286536935A065578C5B878</key>
+		<dict>
+			<key>fileRef</key>
+			<string>76CD4265BBDE0E9539B2835E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3B05533F630FBDBA0D9D95A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA1ACCFF47BE1E5AB5CDE798</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3D0E3ED5BACB1306C8A66AA9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9D72CBF1708E2C1BF02C25DA</string>
+				<string>B4DCF9B8CE8A7CE03BD0B0F8</string>
+				<string>20DA3516F37AE8105B6A5160</string>
+				<string>DFBD407E7490FB1ED975FA34</string>
+				<string>4C2700FDEDCC6A46FD2E0077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3D9AE7C59FDCBBE388AAA449</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6617FEA1BF49292176CF32A2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>400298CE6EF008DCDFA647C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CDA6D6282B517A4CA23FE037</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>40A294EBA5BAAC99004394E5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D0D7F2D9F53C7E479A7225C6</string>
+				<string>6E986D97BD362EA2E9A7167D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>42BCCBEA89192070F2E9D7F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>md4.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/md4.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45063E23AE21A8B1512CBBFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>engine.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/engine.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>459E0611E2C382188C2A833D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED9FE5738BD5B6D282392D03</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>460C49DEC22A14484C1F9CA6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>69A3B99796CC3C7710941DEE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>47279A8807BB75DB719D1EF9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ui.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ui.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AC292D2B32C7EFB9EBBF732</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>txt_db.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/txt_db.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B51D0E17F43ECC58300E038</key>
+		<dict>
+			<key>fileRef</key>
+			<string>939BC18992F70EF4F8C574F7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4C2700FDEDCC6A46FD2E0077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85F1EA15BE637CEBD3920452</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>50918547EF1C5503EDC6FC5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>kssl.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/kssl.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>510D25548C3BECCF18E86A95</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1DA9FC99352949F84FCC3384</string>
+				<string>8BD6896D1C1B291F290E5273</string>
+				<string>9961314C0684985215FF7836</string>
+				<string>DF16B8ABD894670F560BB433</string>
+				<string>69297184BE961C9B5EC8E8E2</string>
+				<string>DD554BE1458F02B1DA4D19B9</string>
+				<string>1C878C50490939DC24099857</string>
+				<string>2474150E03F76AB040727C13</string>
+				<string>E9DB8682827A405D189058D1</string>
+				<string>C56A664B2DC8D0A6EBA8BEA1</string>
+				<string>65FA70800850B8C17102AD18</string>
+				<string>8CE4722522630215091E8EF8</string>
+				<string>E474D24E76A58FFBA1444CBA</string>
+				<string>E737D46E8BB1A6E959D2089F</string>
+				<string>2B2E89A5C9653696E63AADBA</string>
+				<string>093A3D922504A2A48C0410EC</string>
+				<string>143FC28B82A2D0FB3C361358</string>
+				<string>E74D483E55ECF8E3ED92A00C</string>
+				<string>63453EBF4E015014966E4C66</string>
+				<string>1409C726631028A3BA03E37E</string>
+				<string>4B51D0E17F43ECC58300E038</string>
+				<string>579EF29633513E563147FD75</string>
+				<string>BB692B71863627ECE0239975</string>
+				<string>580440EF2E77108133F69415</string>
+				<string>AD808990106688E3259C9204</string>
+				<string>CC320C4D1B15325C84A8E8FB</string>
+				<string>6EA25DAA965ED648B8E80A28</string>
+				<string>400298CE6EF008DCDFA647C5</string>
+				<string>9D086A6BC7983B27FB36079C</string>
+				<string>605CD08D4F9DEEDA13A99720</string>
+				<string>3A286536935A065578C5B878</string>
+				<string>E402117AA9FFFDA9C48DE34F</string>
+				<string>8D35DA739B40F6F7893112BF</string>
+				<string>62D75D053C3B0867F00A5FAB</string>
+				<string>56DDA9EA962DEAF669B24CB1</string>
+				<string>196335E14E19EEB0277AE23F</string>
+				<string>0AB7749D537D4EC112135DA8</string>
+				<string>F49F7C575A1BD7FE01FC6AC8</string>
+				<string>AA2913F6178FF0B56D182ACC</string>
+				<string>088E6A640ADC4CBDACA1C55E</string>
+				<string>59AB4E3B4CA243D265612259</string>
+				<string>684B18379B2F9CDCE21B29C8</string>
+				<string>1F39435EACB165E2CC8D2D1A</string>
+				<string>303B38C689FC2F053EE8DD8E</string>
+				<string>459E0611E2C382188C2A833D</string>
+				<string>B1CE4BEA26365795032A4358</string>
+				<string>C1B417DDAAED8A457093B230</string>
+				<string>8C10592D3A785FB7EB8BE669</string>
+				<string>B37E4E5F29001F42A7165B94</string>
+				<string>EDA71A06381C9154EAC7B1D4</string>
+				<string>460C49DEC22A14484C1F9CA6</string>
+				<string>25177C726EB3C2F6A4EAE6E6</string>
+				<string>AF88C15C3CDCC079459E9F9E</string>
+				<string>1AB9DE63AD19C73752E5258A</string>
+				<string>5FF12FFB492DBFBD26637F33</string>
+				<string>AD824C21228FBDD322348410</string>
+				<string>8ABBAAC2EF5D5E2F39D45167</string>
+				<string>3D9AE7C59FDCBBE388AAA449</string>
+				<string>72CE96C16BE7A9B17ED60423</string>
+				<string>B2550DA0F4B74410C960971C</string>
+				<string>22ED8A2D46FD24326594A44E</string>
+				<string>A8D4E725D850F45C13AFF9A3</string>
+				<string>0754E505D0B6DB467A818C8F</string>
+				<string>71D1852C100F746AC9CA9547</string>
+				<string>C096631DC866A5DC45BB1EFC</string>
+				<string>1D4ADFFD7D54882C67911E61</string>
+				<string>C84673DBC3513B18FBC21523</string>
+				<string>F739D28DFD97F1521185EC8E</string>
+				<string>35503875101CB11F043CD074</string>
+				<string>D0D3B45C03BD8B7DA250507A</string>
+				<string>C780AFC8F4125E09560CB809</string>
+				<string>8BD5F4C4F97BF385850ADF82</string>
+				<string>BADE29A20FFB11DC72586780</string>
+				<string>38AC0C7E1ECBC3F22FAA18BA</string>
+				<string>724293AD588B90C567B2910F</string>
+				<string>C3BE96335C9A12D87BCFF488</string>
+				<string>3B05533F630FBDBA0D9D95A8</string>
+				<string>5F281D755AAC296869A20819</string>
+				<string>29CD80FB30DFFFDA6B9E1384</string>
+				<string>66EA3708E2CA1372CD28822E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>51D1A6FA675F79B6B60258D8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-PLAudioStreamingKit-PLAudioStreamingKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>54A0929F489663ECF316DC63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>rsa.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/rsa.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>56DDA9EA962DEAF669B24CB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DAADB12FA9DB9381117AB00A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>573EC553818ED30D3CB91949</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+			<key>target</key>
+			<string>2F00274072D4BD1B5530C605</string>
+			<key>targetProxy</key>
+			<string>19CCACC5B725D248DD3E2CAF</string>
+		</dict>
+		<key>579EF29633513E563147FD75</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B58652F24F94687559F34E70</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>580440EF2E77108133F69415</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12C7BA34584391C4F65C453A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>59AB4E3B4CA243D265612259</key>
+		<dict>
+			<key>fileRef</key>
+			<string>42BCCBEA89192070F2E9D7F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5F281D755AAC296869A20819</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7637A28292C9893649119D07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5F4021EE8ED9BCE3EBBDF966</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F4494D263517D02387FAC95</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -87,21 +946,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0759D79B74C5F3E8D0F625E8</key>
+		<key>5FF12FFB492DBFBD26637F33</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C9FF20132762353E889B797D</string>
+			<string>0348F65B0947643607D1D046</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0761F8824F16BBC34B3DC9E3</key>
+		<key>605CD08D4F9DEEDA13A99720</key>
 		<dict>
 			<key>fileRef</key>
-			<string>57E7F8259DB2A45000116DB2</string>
+			<string>B51D15937CA6B58DEF6EA2C6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>07BB3D67A8BFD872242DC9F7</key>
+		<key>62D75D053C3B0867F00A5FAB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6DD698EE8FDB2CC9ED8FF44C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>63453EBF4E015014966E4C66</key>
+		<dict>
+			<key>fileRef</key>
+			<string>93791ACFB434A4F231A8B3C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>64BEB417F67C8FF369F0BC88</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B7CCCCDC265DA009A84693F0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6595439C9311069E25912C29</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -110,33 +996,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>dso.h</string>
+			<string>srtp.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/dso.h</string>
+			<string>Pod/Library/include/openssl/srtp.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0924960276BC1E2E0ED1B34F</key>
+		<key>65FA70800850B8C17102AD18</key>
 		<dict>
 			<key>fileRef</key>
-			<string>66D511022B4AA78C16F5D4A0</string>
+			<string>B54572430AD13E6AF336DFD0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0AAB92FB3D6CB3E7EAB6E31E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0AD9D5D692EE03FB1EA0D5E2</key>
+		<key>6617FEA1BF49292176CF32A2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -145,13 +1018,143 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>obj_mac.h</string>
+			<string>rc4.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/obj_mac.h</string>
+			<string>Pod/Library/include/openssl/rc4.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0D9853FB19CD5DC72150674B</key>
+		<key>66EA3708E2CA1372CD28822E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>35E6998B03B13C5EE5B6B2FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>684B18379B2F9CDCE21B29C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>046AC7E694DEC2956F91D78E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>69297184BE961C9B5EC8E8E2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E9B24AB13DD24D28A5D458F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>69A3B99796CC3C7710941DEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>pem.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/pem.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69E9A6E3BF786DDFD3AA2A6C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>cmac.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/cmac.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A44CFEA4E3421986F5088E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>opensslv.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/opensslv.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C14532FA8ADAC2FBF1E0297</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CF9614238B008DDD51E2E150</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit/Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6DD698EE8FDB2CC9ED8FF44C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>err.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/err.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E986D97BD362EA2E9A7167D</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -213,305 +1216,61 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>0E0BBB9F2CDED3FAEEC9F1BB</key>
+		<key>6EA25DAA965ED648B8E80A28</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE4F41C5D05A7C809C9CE1E7</string>
+			<string>DF5C1E50E073A0BCD0319955</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0E7E4CE4452C2A74E7E4E41D</key>
+		<key>71D1852C100F746AC9CA9547</key>
 		<dict>
 			<key>fileRef</key>
-			<string>508EA1CFBD36F1E249EAC8F1</string>
+			<string>DAE4751A356DB526F618FF1D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>1087822AE99EA4254DA385F8</key>
+		<key>724293AD588B90C567B2910F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>257B90E7D967E265ECAC36CB</string>
+			<string>47279A8807BB75DB719D1EF9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>10C26FF0F94CDDECFAA6CCBE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>1123B979E93C269545A8B432</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>lhash.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/lhash.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11C67ED009558EB7C6D91988</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>12FD665DDE0D059D74401B55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ebcdic.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ebcdic.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>134924F1A4B79EB4D0A8838F</key>
+		<key>72CE96C16BE7A9B17ED60423</key>
 		<dict>
 			<key>fileRef</key>
-			<string>852E4E1F8D0DF3E98D9B24BF</string>
+			<string>0A14231594F9CBEC9738E927</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>14D1FBFB7D54431671C60AC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ocsp.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ocsp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>186E108804075DDA1CB8E745</key>
+		<key>73358A1DB57AE3A77A516951</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>00A4A28EA1851A0DFF5A865D</string>
-				<string>02C7D76267FFCBE5462BE4D8</string>
-				<string>1E38A3CA49A9EB4FB5A75E81</string>
-				<string>11C67ED009558EB7C6D91988</string>
-				<string>10C26FF0F94CDDECFAA6CCBE</string>
+				<string>B03EA655954EB6EC0D3D71AD</string>
+				<string>807EA8BA8862BC112083C3F8</string>
+				<string>F1E33F32B8921D4391B4DC6C</string>
+				<string>5F4021EE8ED9BCE3EBBDF966</string>
+				<string>13CA87B2F6434539A919CDA4</string>
+				<string>93AF0A37B87552D385D1E940</string>
+				<string>DFBD6006B602CAA9B1FA8743</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19460F96CB670F6963A738DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E5D8A9E751F2F6A20F23A75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>precompiled</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A9074CCAAD30DD2CDC4344C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F488AFCCBADF88AB7A2EBB0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AE3E95ACEDC727BB29EADA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA05CB58806416020AD36CF0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1BB7E6DC49392D1D67FB7C6D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>camellia.h</string>
+			<string>Pods-PLAudioStreamingKit</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/camellia.h</string>
+			<string>Target Support Files/Pods-PLAudioStreamingKit</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1D0058D451DE40A562652AFF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libPLAudioStreamingKit.a</string>
-			<key>path</key>
-			<string>Pod/Library/lib/libPLAudioStreamingKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E38A3CA49A9EB4FB5A75E81</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreAudio.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>1F5308DD34177EB75D0EFBED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0AD9D5D692EE03FB1EA0D5E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F596390051831B752832383</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89FBBE0A7596FFBE8A0FF541</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2050C15AB64409FCD0C0B5A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F38AF3715694A7C0CBF66FAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2137A392E4EB9AADF2AAE6B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>02C7D76267FFCBE5462BE4D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>21AE963E82F533C393F81D5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A6B9D858ABE50D524DF19D6B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>235D7A1C0E4D84771160BA75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98CFAEB96582EDD5B028FE60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>24A250D3361E06C7E26717E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>asn1_mac.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/asn1_mac.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>257B90E7D967E265ECAC36CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ec.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ec.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29359DB910E07E29377ED080</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2950804DE53C5CEBA775ED73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6E80EDE6FAC139B8818AD70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A87604B7B8A9530696D800D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PLTypeDefines.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/PLAudioStreamingKit/PLTypeDefines.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A94572B1933CA948A45A406</key>
+		<key>734850924D0F0A7777B972CE</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>D8A524FC6EB3277B80C60975</string>
-				<string>0D9853FB19CD5DC72150674B</string>
+				<string>B93C02129460F51483D0F4C6</string>
+				<string>BCA3D342DB229C765123EC44</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -520,227 +1279,65 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2B79BB2E2E01C546F4FCEC7B</key>
+		<key>7637A28292C9893649119D07</key>
 		<dict>
-			<key>fileRef</key>
-			<string>AB306320518FAE632584E444</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>x509.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/x509.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2CFEF43B36205961CE989784</key>
+		<key>76A2508EC07F40A1F40A25D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>asn1.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/asn1.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76CD4265BBDE0E9539B2835E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ecdh.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ecdh.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F016C3B613D52337CD84E87</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>511C248F6D4A3EA0095DCA62</string>
-				<string>FE4649A8552FB1B54B18B187</string>
-				<string>F1D823A429A47337E936F861</string>
-				<string>E61B2A10CAE2B5C76B2D52DF</string>
+				<string>84A920E6902EC32133ECD7AB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2E79D8B9A20465DD9DC596EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>symhacks.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/symhacks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F3D5C588ABF07A578DC4E80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>conf_api.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/conf_api.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F82E746A44DB53391C3C00B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A49426429D5EAD5225FEE8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>300FD215D412968DA1C1FF3C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8807056283C72086D7F2087</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>336BF77693ADB6688B9C227B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>06A00E4F7B4D87C6D599E608</string>
-				<string>58110AC0D94CA55F96FE23F7</string>
-				<string>ECE2AD7DA55F250505322FDB</string>
-				<string>0E0BBB9F2CDED3FAEEC9F1BB</string>
-				<string>A57ADAC5236F2C35045D3B78</string>
-				<string>BEABBF22B5DACEBE586815DD</string>
-				<string>E1E506FCAC5C1DBBA13760B6</string>
-				<string>54D9DCB66E33F36970BC198F</string>
-				<string>134924F1A4B79EB4D0A8838F</string>
-				<string>67B52369B841F30A5B3F4228</string>
-				<string>AFB80C3635E24F66D5118B5E</string>
-				<string>DAF0EFFD589634BB86385788</string>
-				<string>0E7E4CE4452C2A74E7E4E41D</string>
-				<string>C92E129AB1931A6A2B6FB769</string>
-				<string>1AE3E95ACEDC727BB29EADA4</string>
-				<string>47064AE91919F53E326128C0</string>
-				<string>300FD215D412968DA1C1FF3C</string>
-				<string>D011E8943FDA8E8C07F9ED71</string>
-				<string>A170A42750522AF85B91B8F6</string>
-				<string>FD50EA4AF0A91FCEBCFF42B2</string>
-				<string>94269FC6A936BC82A3F1D568</string>
-				<string>C12478BC3645AF5560BFC758</string>
-				<string>071CE8E2A601430C88E525BD</string>
-				<string>C9F646B77A630950A2B02288</string>
-				<string>1A9074CCAAD30DD2CDC4344C</string>
-				<string>6E21F0A7E0FDDD88938A8CE2</string>
-				<string>21AE963E82F533C393F81D5B</string>
-				<string>4DC1046375E2FE422E51D079</string>
-				<string>8189919D74B1054F8C500277</string>
-				<string>1087822AE99EA4254DA385F8</string>
-				<string>C9B780B072708ACDF28E8056</string>
-				<string>FB3EC0F113EE121B0503BB7B</string>
-				<string>2F82E746A44DB53391C3C00B</string>
-				<string>80EBD9F73EBCA10775E81021</string>
-				<string>8298DD47D1CE75E9544A958E</string>
-				<string>366D01C30EB8AE0D0CCEE03A</string>
-				<string>E60593EE31ADF1216FBCFB66</string>
-				<string>8EF8F50FC4478B64BE81BA2C</string>
-				<string>1F596390051831B752832383</string>
-				<string>C87ABBDF083919CE1DEFBE5E</string>
-				<string>AA61D691883665896CDA85E0</string>
-				<string>DB8448690A79E3B8AFF7E0FC</string>
-				<string>235D7A1C0E4D84771160BA75</string>
-				<string>B07F366C2F2EBD5E9EC3A9BC</string>
-				<string>1F5308DD34177EB75D0EFBED</string>
-				<string>E398946F4278AB93D89E899D</string>
-				<string>807FCF4DD5F66B17DC694758</string>
-				<string>D1B5A2481E96032E0D06995B</string>
-				<string>CE33F0812429EE9E8FA9FA5B</string>
-				<string>2050C15AB64409FCD0C0B5A0</string>
-				<string>86D8C44FC0AB2A869FB03532</string>
-				<string>99E7D1C8077C9E56A9A2138F</string>
-				<string>DF288D7716CBC001913D6981</string>
-				<string>E667AAEB34FB9299ADB877FF</string>
-				<string>38DD5ADA315905CD37FC0D81</string>
-				<string>BAD104C0AAC1B5A07CF5C6E3</string>
-				<string>AB35E16E434BB65DE8EF6E8F</string>
-				<string>2B79BB2E2E01C546F4FCEC7B</string>
-				<string>2950804DE53C5CEBA775ED73</string>
-				<string>4336BFB81CBA137BD8C6CC7B</string>
-				<string>AD87B43C0D6592C7CA1BB6C6</string>
-				<string>D1E0D7108AAD78E7476C2262</string>
-				<string>77EDE895E0E6C4F1306EA0C3</string>
-				<string>8487152462AB9BD7AE305E3F</string>
-				<string>C6CEE9E467809D3C990DBF1D</string>
-				<string>9ABC624B03D9555DB8E15231</string>
-				<string>79376E56C5FDE8617ABBE79D</string>
-				<string>554BB134ADD96C7B8727C7BA</string>
-				<string>D469295DE104B0E987AF1CE2</string>
-				<string>0759D79B74C5F3E8D0F625E8</string>
-				<string>BCCA9DBA1C7E94857C1B64B1</string>
-				<string>C30B6C3DF48577B0B7D9C899</string>
-				<string>0761F8824F16BBC34B3DC9E3</string>
-				<string>DCD28DAEB567309B4FF61722</string>
-				<string>71B001EFD28922E967BCD439</string>
-				<string>AD487C3B7B26E3E174442417</string>
-				<string>4F6AA2DCD98902EBF882549F</string>
-				<string>9489B1DBCD65AD038DA52E9E</string>
-				<string>0924960276BC1E2E0ED1B34F</string>
-				<string>00B2DF98ED104180205128BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>33D54A6DBCBA6F34B2E88A85</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ssl.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ssl.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>350D5D103AEC4BAE2C26BECE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>pem2.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/pem2.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>366D01C30EB8AE0D0CCEE03A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0241B4C082B6D4DD5DE094A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3670F7E5D379749266F156B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>whrlpool.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/whrlpool.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38DD5ADA315905CD37FC0D81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9109A0F7CE463D14A8BBC470</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3908C8BD4A1B70CED9ABE430</key>
+		<key>807EA8BA8862BC112083C3F8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -753,7 +1350,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A3892CA76E2A05DA49A833C</key>
+		<key>81530F8971910041995B6682</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -762,708 +1359,30 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>ecdsa.h</string>
+			<string>rc2.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/ecdsa.h</string>
+			<string>Pod/Library/include/openssl/rc2.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A3FDC335B23C57B5983AF6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10C26FF0F94CDDECFAA6CCBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3A49426429D5EAD5225FEE8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>engine.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/engine.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40DD11A7C0B564D580B84653</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ssl23.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ssl23.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4336BFB81CBA137BD8C6CC7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91E06AC7C21BDB322D360E7A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>47064AE91919F53E326128C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6AB6A3E36E525EE1B1C65F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4C167B927D69B738B865FB83</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>srp.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/srp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C7ED5D4F58E4B418167E36C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FE4649A8552FB1B54B18B187</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit/Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4DA2F221AB2E3CE1E5A31D75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>evp.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/evp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DC1046375E2FE422E51D079</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5665330FFFBDCC9A7B69704F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4EE552B55B45D4D7D3A0201D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11C67ED009558EB7C6D91988</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4F6AA2DCD98902EBF882549F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3670F7E5D379749266F156B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>508EA1CFBD36F1E249EAC8F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>buffer.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/buffer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>511C248F6D4A3EA0095DCA62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51EC6CA3BCD51EF3F24D53E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>seed.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/seed.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>520999FA28D8231B1974A72E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1D823A429A47337E936F861</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>538F38883906D0C5B25F7A71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>modes.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/modes.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53FD19C22DE41116F459F8D1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4C7ED5D4F58E4B418167E36C</string>
-				<string>572F41308F7A5542D5D4C762</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>54D9DCB66E33F36970BC198F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24A250D3361E06C7E26717E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>54FEE65568C0A30BB6E1E973</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>x509v3.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/x509v3.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>554BB134ADD96C7B8727C7BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40DD11A7C0B564D580B84653</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5665330FFFBDCC9A7B69704F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>e_os2.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/e_os2.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56A42C8BFF78F79688F68F7E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2A94572B1933CA948A45A406</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>83EDED5B86BBDC0D7FEFF7D9</string>
-			<key>productRefGroup</key>
-			<string>FC062242BDDB0D65ADA8B16D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>B0A63FF32DCE48D4EDB3B549</string>
-				<string>B2D7901F998B60A0B269871F</string>
-			</array>
-		</dict>
-		<key>572F41308F7A5542D5D4C762</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FE4649A8552FB1B54B18B187</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit/Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>573FF42802FBF5CFE802C90E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E26B44D9A45B5D33E46EA975</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>57E7F8259DB2A45000116DB2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ts.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ts.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58110AC0D94CA55F96FE23F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC7DD8052609052D5E5F5B2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>584B670FAE9EC0213DEEF29E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>60DFB9A5A474578CF00B7981</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>59E43CC58416F17E61655E0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PLAudioStreamingConfiguration.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/PLAudioStreamingKit/PLAudioStreamingConfiguration.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B1D1D7E5F2427A9A2E7C323</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>des_old.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/des_old.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C03133B1DCD9ABA01D583D9</key>
+		<key>84A920E6902EC32133ECD7AB</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>59E43CC58416F17E61655E0E</string>
-				<string>CC7DD8052609052D5E5F5B2D</string>
-				<string>E15D20940F0141CA7BFB0D87</string>
-				<string>DE4F41C5D05A7C809C9CE1E7</string>
-				<string>2A87604B7B8A9530696D800D</string>
-				<string>E0FB0174EB29A5DAD3CAE847</string>
-				<string>F640155C97FEFFBE85348377</string>
-				<string>24A250D3361E06C7E26717E7</string>
-				<string>852E4E1F8D0DF3E98D9B24BF</string>
-				<string>86552639F289591B2E94DEFF</string>
-				<string>FEDB475ACA12AC1D35CF769E</string>
-				<string>81919DF68DE3C55E8BB1F1B4</string>
-				<string>508EA1CFBD36F1E249EAC8F1</string>
-				<string>1BB7E6DC49392D1D67FB7C6D</string>
-				<string>FA05CB58806416020AD36CF0</string>
-				<string>B6AB6A3E36E525EE1B1C65F0</string>
-				<string>F8807056283C72086D7F2087</string>
-				<string>C3C315533AA6FA2BB92B4C81</string>
-				<string>E371BDFAA16EE63AAD1AFBEA</string>
-				<string>2F3D5C588ABF07A578DC4E80</string>
-				<string>A4D68AB095072D71435DF5EA</string>
-				<string>AB8D106009A19793D27D5FD0</string>
-				<string>5B1D1D7E5F2427A9A2E7C323</string>
-				<string>9A4D5259C63D7E1333BE3A30</string>
-				<string>F488AFCCBADF88AB7A2EBB0A</string>
-				<string>07BB3D67A8BFD872242DC9F7</string>
-				<string>A6B9D858ABE50D524DF19D6B</string>
-				<string>5665330FFFBDCC9A7B69704F</string>
-				<string>12FD665DDE0D059D74401B55</string>
-				<string>257B90E7D967E265ECAC36CB</string>
-				<string>8EC8FC2B17936C611DE8DCD7</string>
-				<string>3A3892CA76E2A05DA49A833C</string>
-				<string>3A49426429D5EAD5225FEE8D</string>
-				<string>D222F8E1EA4933AFEC4341CB</string>
-				<string>4DA2F221AB2E3CE1E5A31D75</string>
-				<string>0241B4C082B6D4DD5DE094A7</string>
-				<string>EED41F586E7E2EEF989EE95B</string>
-				<string>9446DED63EDD1DEF4E066885</string>
-				<string>89FBBE0A7596FFBE8A0FF541</string>
-				<string>1123B979E93C269545A8B432</string>
-				<string>9C202272F13EDE082A8AFCB0</string>
-				<string>F708AEAE571882585DFF1B6A</string>
-				<string>98CFAEB96582EDD5B028FE60</string>
-				<string>538F38883906D0C5B25F7A71</string>
-				<string>0AD9D5D692EE03FB1EA0D5E2</string>
-				<string>EE0B2024A75FC53A277BA6C8</string>
-				<string>14D1FBFB7D54431671C60AC7</string>
-				<string>F3973790F2A91057C6D13FAA</string>
-				<string>A163BB47A958831F82319461</string>
-				<string>F38AF3715694A7C0CBF66FAE</string>
-				<string>7BF857D664FFE9538840DD05</string>
-				<string>350D5D103AEC4BAE2C26BECE</string>
-				<string>BF6A755F97191B157EA99964</string>
-				<string>F4213C2493B79FCCC20E0F72</string>
-				<string>9109A0F7CE463D14A8BBC470</string>
-				<string>B4DEB5C930237FE053E8C7AC</string>
-				<string>80AB3FF7E8B7D0AC6B1FD832</string>
-				<string>AB306320518FAE632584E444</string>
-				<string>B6E80EDE6FAC139B8818AD70</string>
-				<string>91E06AC7C21BDB322D360E7A</string>
-				<string>8700FA271AAEED90651D50BF</string>
-				<string>51EC6CA3BCD51EF3F24D53E9</string>
-				<string>77386E18AA3B406CD7227CA7</string>
-				<string>4C167B927D69B738B865FB83</string>
-				<string>98BD159E79CF0AFD5B07A1F3</string>
-				<string>33D54A6DBCBA6F34B2E88A85</string>
-				<string>072E57276A231C289D62F5D2</string>
-				<string>40DD11A7C0B564D580B84653</string>
-				<string>D6F57198532EAA3950D28665</string>
-				<string>C9FF20132762353E889B797D</string>
-				<string>2E79D8B9A20465DD9DC596EB</string>
-				<string>CF441F28433D59D31FB59DE7</string>
-				<string>57E7F8259DB2A45000116DB2</string>
-				<string>D4A66157172246517410FD91</string>
-				<string>9B0B51A57907EB3BBD9D4E62</string>
-				<string>5D2077FD4BF3ECE4AE2A22D4</string>
-				<string>3670F7E5D379749266F156B9</string>
-				<string>A512CD308756F4244DCF3F90</string>
-				<string>66D511022B4AA78C16F5D4A0</string>
-				<string>54FEE65568C0A30BB6E1E973</string>
-				<string>2CFEF43B36205961CE989784</string>
-				<string>19460F96CB670F6963A738DA</string>
+				<string>B093F3444024D727BD84CB96</string>
+				<string>93E495696CCE0C26A9F74119</string>
+				<string>CA5FA3048EDAAB5ACE34663B</string>
+				<string>FB7AA574751027783136F992</string>
+				<string>85F1EA15BE637CEBD3920452</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>PLAudioStreamingKit</string>
-			<key>path</key>
-			<string>../..</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5D2077FD4BF3ECE4AE2A22D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ui_compat.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ui_compat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FE322A4F42153601461DFB1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4EE552B55B45D4D7D3A0201D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>60DFB9A5A474578CF00B7981</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66D511022B4AA78C16F5D4A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>x509_vfy.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/x509_vfy.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67B52369B841F30A5B3F4228</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86552639F289591B2E94DEFF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6E21F0A7E0FDDD88938A8CE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07BB3D67A8BFD872242DC9F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6E71C1A1DECC1DA98B719778</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>573FF42802FBF5CFE802C90E</string>
-				<string>584B670FAE9EC0213DEEF29E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>71B001EFD28922E967BCD439</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B0B51A57907EB3BBD9D4E62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>77386E18AA3B406CD7227CA7</key>
+		<key>85AA746CCEA73AE8E377DB80</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1478,97 +1397,287 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>77EDE895E0E6C4F1306EA0C3</key>
+		<key>85F1EA15BE637CEBD3920452</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8ABBAAC2EF5D5E2F39D45167</key>
 		<dict>
 			<key>fileRef</key>
-			<string>77386E18AA3B406CD7227CA7</string>
+			<string>81530F8971910041995B6682</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7820FF7F1A12B252C681A0A2</key>
+		<key>8BA68B888AE9C56644EA5ED2</key>
 		<dict>
-			<key>children</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>pkcs12.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/pkcs12.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BD5F4C4F97BF385850ADF82</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12C23BABFA53772DD19AE12C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8BD6896D1C1B291F290E5273</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91668C96A551FF0234F0B6AF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8C10592D3A785FB7EB8BE669</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F91E568AB375918851DDF92C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CE4722522630215091E8EF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FE10434C9AF5CD42EDF1EF8A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8D35DA739B40F6F7893112BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>45063E23AE21A8B1512CBBFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8D3CE14344DEA07F76464E8C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>comp.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/comp.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>90E5A9E08B0FB7C226BAF76E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>seed.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/seed.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>910D948F2EEE276F57DE0FF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ui_compat.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ui_compat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>91668C96A551FF0234F0B6AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PLAudioStreamingKit.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/PLAudioStreamingKit/PLAudioStreamingKit.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93280C68DC090AE2FE5E1DE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ocsp.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ocsp.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93791ACFB434A4F231A8B3C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>conf.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/conf.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>939BC18992F70EF4F8C574F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>crypto.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/crypto.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93AF0A37B87552D385D1E940</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93E495696CCE0C26A9F74119</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AudioToolbox.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>99425B873AF32CCEB498DB45</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>objects.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/objects.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9961314C0684985215FF7836</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DCEBD30E1357E00A321B233E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D086A6BC7983B27FB36079C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E92CBE777A4DC62B09D28CEB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D72CBF1708E2C1BF02C25DA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B093F3444024D727BD84CB96</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9E9B24AB13DD24D28A5D458F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PLTypeDefines.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/PLAudioStreamingKit/PLTypeDefines.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F05C82B7170133D673438DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>conf_api.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/conf_api.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F65791F642D9629A1D31B7B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>0AAB92FB3D6CB3E7EAB6E31E</string>
-				<string>3908C8BD4A1B70CED9ABE430</string>
-				<string>29359DB910E07E29377ED080</string>
-				<string>7BDE27929EBCD2E479CDFF25</string>
-				<string>EA5DF90F33332F68CA0BEDCA</string>
-				<string>E26B44D9A45B5D33E46EA975</string>
-				<string>60DFB9A5A474578CF00B7981</string>
+				<string>EDBE6FFE6DC7C3463EFE08EB</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-PLAudioStreamingKit</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-PLAudioStreamingKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>786B887DBE31778E9B57B95B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11C67ED009558EB7C6D91988</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>79376E56C5FDE8617ABBE79D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>072E57276A231C289D62F5D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7BDE27929EBCD2E479CDFF25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BF857D664FFE9538840DD05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>pem.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/pem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C4579060CF957361174D4C5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>56A42C8BFF78F79688F68F7E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B2D7901F998B60A0B269871F</string>
-			<key>remoteInfo</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
-		</dict>
-		<key>807FCF4DD5F66B17DC694758</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14D1FBFB7D54431671C60AC7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>809129CDB204B5742E06F85D</key>
+		<key>A195C229D54577C59F61851A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1585,7 +1694,57 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>80AB3FF7E8B7D0AC6B1FD832</key>
+		<key>A1B56F52E8B279863AE65FEF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CF9614238B008DDD51E2E150</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit/Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A2A2A85899D55C4D2A050B8B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1594,275 +1753,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>rc2.h</string>
+			<string>dsa.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/rc2.h</string>
+			<string>Pod/Library/include/openssl/dsa.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>80EBD9F73EBCA10775E81021</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D222F8E1EA4933AFEC4341CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8189919D74B1054F8C500277</key>
-		<dict>
-			<key>fileRef</key>
-			<string>12FD665DDE0D059D74401B55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>81919DF68DE3C55E8BB1F1B4</key>
+		<key>A3B1D4499ECA219B89FAEC4F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>archive.ar</string>
 			<key>name</key>
-			<string>bn.h</string>
+			<string>libPLAudioStreamingKit.a</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/bn.h</string>
+			<string>Pod/Library/lib/libPLAudioStreamingKit.a</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8298DD47D1CE75E9544A958E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DA2F221AB2E3CE1E5A31D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83EDED5B86BBDC0D7FEFF7D9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>809129CDB204B5742E06F85D</string>
-				<string>9F2E2E50CA55145F0E4270B6</string>
-				<string>BEC61E5DF8533E2794C1716D</string>
-				<string>FC062242BDDB0D65ADA8B16D</string>
-				<string>92D62846E3344A66B3FB9EC7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8487152462AB9BD7AE305E3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C167B927D69B738B865FB83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>852E4E1F8D0DF3E98D9B24BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>asn1t.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/asn1t.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86552639F289591B2E94DEFF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>bio.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/bio.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86D8C44FC0AB2A869FB03532</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BF857D664FFE9538840DD05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8700FA271AAEED90651D50BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>safestack.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/safestack.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89FBBE0A7596FFBE8A0FF541</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>kssl.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/kssl.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E5D8A9E751F2F6A20F23A75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D0058D451DE40A562652AFF</string>
-				<string>ECB1BF30D527CFE24BBB12C0</string>
-				<string>F592B1BD53482C2522689F9D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EC8FC2B17936C611DE8DCD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ecdh.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ecdh.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EF8F50FC4478B64BE81BA2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9446DED63EDD1DEF4E066885</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9109A0F7CE463D14A8BBC470</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>pqueue.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/pqueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91E06AC7C21BDB322D360E7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>rsa.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/rsa.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92D62846E3344A66B3FB9EC7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7820FF7F1A12B252C681A0A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94269FC6A936BC82A3F1D568</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A4D68AB095072D71435DF5EA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9446DED63EDD1DEF4E066885</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>krb5_asn.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/krb5_asn.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9489B1DBCD65AD038DA52E9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A512CD308756F4244DCF3F90</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96321913617777B7EE4EB948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>520999FA28D8231B1974A72E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>98BD159E79CF0AFD5B07A1F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>srtp.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/srtp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98CFAEB96582EDD5B028FE60</key>
+		<key>A8B36C474B6BD22FB68D2076</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1877,156 +1789,86 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>99E7D1C8077C9E56A9A2138F</key>
+		<key>A8D4E725D850F45C13AFF9A3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>350D5D103AEC4BAE2C26BECE</string>
+			<string>90E5A9E08B0FB7C226BAF76E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9A4D5259C63D7E1333BE3A30</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>dh.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/dh.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ABC624B03D9555DB8E15231</key>
+		<key>AA2913F6178FF0B56D182ACC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>33D54A6DBCBA6F34B2E88A85</string>
+			<string>50918547EF1C5503EDC6FC5A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9B0B51A57907EB3BBD9D4E62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ui.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ui.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C202272F13EDE082A8AFCB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>md4.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/md4.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D05AB86A056316131B6DB4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>29359DB910E07E29377ED080</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9F2E2E50CA55145F0E4270B6</key>
+		<key>AB90345A6C8D7F5159CCED20</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>5C03133B1DCD9ABA01D583D9</string>
+				<string>0F42560D2A14F3BF04998EA8</string>
+				<string>51D1A6FA675F79B6B60258D8</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Development Pods</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A163BB47A958831F82319461</key>
+		<key>AC091EB4FCFAB11E6B206819</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>40A294EBA5BAAC99004394E5</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>opensslv.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/opensslv.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>EBF975437C9E0AE0EE842156</string>
+			<key>productRefGroup</key>
+			<string>AB90345A6C8D7F5159CCED20</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>08B1152D8B66DCA0FF2B16CE</string>
+				<string>2F00274072D4BD1B5530C605</string>
+			</array>
 		</dict>
-		<key>A16A78BBDBA56989197150CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
-			<key>target</key>
-			<string>B2D7901F998B60A0B269871F</string>
-			<key>targetProxy</key>
-			<string>7C4579060CF957361174D4C5</string>
-		</dict>
-		<key>A170A42750522AF85B91B8F6</key>
+		<key>AD808990106688E3259C9204</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E371BDFAA16EE63AAD1AFBEA</string>
+			<string>A2A2A85899D55C4D2A050B8B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A4D68AB095072D71435DF5EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>crypto.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/crypto.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A512CD308756F4244DCF3F90</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>x509.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/x509.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A57ADAC5236F2C35045D3B78</key>
+		<key>AD824C21228FBDD322348410</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2A87604B7B8A9530696D800D</string>
+			<string>38DF6E4833CF543DC5E92DA5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A6B9D858ABE50D524DF19D6B</key>
+		<key>AECCFADB87629E238FEA0F34</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2035,20 +1877,74 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>dtls1.h</string>
+			<string>pem2.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/dtls1.h</string>
+			<string>Pod/Library/include/openssl/pem2.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AA61D691883665896CDA85E0</key>
+		<key>AF88C15C3CDCC079459E9F9E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9C202272F13EDE082A8AFCB0</string>
+			<string>8BA68B888AE9C56644EA5ED2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>AB306320518FAE632584E444</key>
+		<key>B03EA655954EB6EC0D3D71AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B093F3444024D727BD84CB96</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>B1CE4BEA26365795032A4358</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99425B873AF32CCEB498DB45</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2550DA0F4B74410C960971C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>54A0929F489663ECF316DC63</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B37E4E5F29001F42A7165B94</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A44CFEA4E3421986F5088E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B4DCF9B8CE8A7CE03BD0B0F8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>93E495696CCE0C26A9F74119</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B51D15937CA6B58DEF6EA2C6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2057,20 +1953,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>rc4.h</string>
+			<string>ec.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/rc4.h</string>
+			<string>Pod/Library/include/openssl/ec.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB35E16E434BB65DE8EF6E8F</key>
+		<key>B54572430AD13E6AF336DFD0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>80AB3FF7E8B7D0AC6B1FD832</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>blowfish.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/blowfish.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB8D106009A19793D27D5FD0</key>
+		<key>B58652F24F94687559F34E70</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2085,182 +1989,157 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AD487C3B7B26E3E174442417</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D2077FD4BF3ECE4AE2A22D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AD87B43C0D6592C7CA1BB6C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8700FA271AAEED90651D50BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFB80C3635E24F66D5118B5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FEDB475ACA12AC1D35CF769E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B07F366C2F2EBD5E9EC3A9BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>538F38883906D0C5B25F7A71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0A63FF32DCE48D4EDB3B549</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6E71C1A1DECC1DA98B719778</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C1C83545DFB075A475458C01</string>
-				<string>5FE322A4F42153601461DFB1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A16A78BBDBA56989197150CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-PLAudioStreamingKit</string>
-			<key>productName</key>
-			<string>Pods-PLAudioStreamingKit</string>
-			<key>productReference</key>
-			<string>CFC03A76AE7B10B219082A99</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B2D7901F998B60A0B269871F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>53FD19C22DE41116F459F8D1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>96321913617777B7EE4EB948</string>
-				<string>BDCA858B479A586B3959C824</string>
-				<string>336BF77693ADB6688B9C227B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
-			<key>productName</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
-			<key>productReference</key>
-			<string>D6853B007AB2C8021425C34C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B4DEB5C930237FE053E8C7AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>rand.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/rand.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6AB6A3E36E525EE1B1C65F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>cmac.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/cmac.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6E80EDE6FAC139B8818AD70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ripemd.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ripemd.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BAD104C0AAC1B5A07CF5C6E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4DEB5C930237FE053E8C7AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BCCA9DBA1C7E94857C1B64B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E79D8B9A20465DD9DC596EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BDCA858B479A586B3959C824</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C2C3049183FBB987EF752194</string>
-				<string>2137A392E4EB9AADF2AAE6B2</string>
-				<string>D03680E56A28C49EB20631C2</string>
-				<string>786B887DBE31778E9B57B95B</string>
-				<string>3A3FDC335B23C57B5983AF6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BEABBF22B5DACEBE586815DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0FB0174EB29A5DAD3CAE847</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BEC61E5DF8533E2794C1716D</key>
+		<key>B659BCA262065016F63D4043</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>186E108804075DDA1CB8E745</string>
+				<string>10A8908F606BAD3CE8FC0CE4</string>
+				<string>91668C96A551FF0234F0B6AF</string>
+				<string>DCEBD30E1357E00A321B233E</string>
+				<string>E5A4A1705FA1CFCE8B39532B</string>
+				<string>9E9B24AB13DD24D28A5D458F</string>
+				<string>F12BC02201B84E552DD68EF3</string>
+				<string>76A2508EC07F40A1F40A25D8</string>
+				<string>FB13F5CC71795E06A29A9526</string>
+				<string>D40F7BDA6F8FFADD4A39ABB4</string>
+				<string>C368461675A0896EA11C3383</string>
+				<string>B54572430AD13E6AF336DFD0</string>
+				<string>FE10434C9AF5CD42EDF1EF8A</string>
+				<string>30A5BA7F36A5F43375DF125C</string>
+				<string>E7D7FD46BEAB6783F7110443</string>
+				<string>1319DD37B80B07DEE8A34964</string>
+				<string>69E9A6E3BF786DDFD3AA2A6C</string>
+				<string>0FE0667F49E4C0AAE3D16081</string>
+				<string>8D3CE14344DEA07F76464E8C</string>
+				<string>93791ACFB434A4F231A8B3C6</string>
+				<string>9F05C82B7170133D673438DF</string>
+				<string>939BC18992F70EF4F8C574F7</string>
+				<string>B58652F24F94687559F34E70</string>
+				<string>D416FC958379DC52CFF82433</string>
+				<string>12C7BA34584391C4F65C453A</string>
+				<string>A2A2A85899D55C4D2A050B8B</string>
+				<string>E19698C81940FA35E7A81189</string>
+				<string>DF5C1E50E073A0BCD0319955</string>
+				<string>CDA6D6282B517A4CA23FE037</string>
+				<string>E92CBE777A4DC62B09D28CEB</string>
+				<string>B51D15937CA6B58DEF6EA2C6</string>
+				<string>76CD4265BBDE0E9539B2835E</string>
+				<string>CB6834FB458413F35E10D957</string>
+				<string>45063E23AE21A8B1512CBBFA</string>
+				<string>6DD698EE8FDB2CC9ED8FF44C</string>
+				<string>DAADB12FA9DB9381117AB00A</string>
+				<string>D76DB1E0A6B97B8C5466DAFA</string>
+				<string>E80EE3BC6D4602AC94D649A4</string>
+				<string>39384EAD2C28FF03C5C59DDA</string>
+				<string>50918547EF1C5503EDC6FC5A</string>
+				<string>E7F3C5A4B2AA76A37E542B5E</string>
+				<string>42BCCBEA89192070F2E9D7F9</string>
+				<string>046AC7E694DEC2956F91D78E</string>
+				<string>A8B36C474B6BD22FB68D2076</string>
+				<string>297AB923D63A95F67A816D43</string>
+				<string>ED9FE5738BD5B6D282392D03</string>
+				<string>99425B873AF32CCEB498DB45</string>
+				<string>93280C68DC090AE2FE5E1DE5</string>
+				<string>F91E568AB375918851DDF92C</string>
+				<string>6A44CFEA4E3421986F5088E2</string>
+				<string>1DA1B9AA0DB31B690FEAB934</string>
+				<string>69A3B99796CC3C7710941DEE</string>
+				<string>AECCFADB87629E238FEA0F34</string>
+				<string>8BA68B888AE9C56644EA5ED2</string>
+				<string>E25553D6D00631401112154C</string>
+				<string>0348F65B0947643607D1D046</string>
+				<string>38DF6E4833CF543DC5E92DA5</string>
+				<string>81530F8971910041995B6682</string>
+				<string>6617FEA1BF49292176CF32A2</string>
+				<string>0A14231594F9CBEC9738E927</string>
+				<string>54A0929F489663ECF316DC63</string>
+				<string>BA11F2F59166929B06AEB448</string>
+				<string>90E5A9E08B0FB7C226BAF76E</string>
+				<string>85AA746CCEA73AE8E377DB80</string>
+				<string>DAE4751A356DB526F618FF1D</string>
+				<string>6595439C9311069E25912C29</string>
+				<string>F90E8CDCB3651A1ACCCCE49F</string>
+				<string>5F4494D263517D02387FAC95</string>
+				<string>2B756710987FF647E561AFF4</string>
+				<string>2588D0ADAE782D6564A00F24</string>
+				<string>D56F608AAB8A3D215397B66E</string>
+				<string>2F804397A65D16A8222A9FBD</string>
+				<string>12C23BABFA53772DD19AE12C</string>
+				<string>1B8C8D7B536C5C9FEE04F44A</string>
+				<string>4AC292D2B32C7EFB9EBBF732</string>
+				<string>47279A8807BB75DB719D1EF9</string>
+				<string>910D948F2EEE276F57DE0FF3</string>
+				<string>EA1ACCFF47BE1E5AB5CDE798</string>
+				<string>7637A28292C9893649119D07</string>
+				<string>D254EEFBD7DABE195E3189F6</string>
+				<string>35E6998B03B13C5EE5B6B2FC</string>
+				<string>D457D5B50989BB5ABC5B53CE</string>
+				<string>C90796241ECFEF02708E46A9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>PLAudioStreamingKit</string>
+			<key>path</key>
+			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BF6A755F97191B157EA99964</key>
+		<key>B7CCCCDC265DA009A84693F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1ECCDFCFA8ADFEE22A1D173D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B93C02129460F51483D0F4C6</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>93AF0A37B87552D385D1E940</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BA11F2F59166929B06AEB448</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2269,47 +2148,158 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>pkcs12.h</string>
+			<string>safestack.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/pkcs12.h</string>
+			<string>Pod/Library/include/openssl/safestack.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C12478BC3645AF5560BFC758</key>
+		<key>BADE29A20FFB11DC72586780</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AB8D106009A19793D27D5FD0</string>
+			<string>1B8C8D7B536C5C9FEE04F44A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C1C83545DFB075A475458C01</key>
+		<key>BB692B71863627ECE0239975</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>fileRef</key>
+			<string>D416FC958379DC52CFF82433</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BCA3D342DB229C765123EC44</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DFBD6006B602CAA9B1FA8743</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C096631DC866A5DC45BB1EFC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6595439C9311069E25912C29</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1B417DDAAED8A457093B230</key>
+		<dict>
+			<key>fileRef</key>
+			<string>93280C68DC090AE2FE5E1DE5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C368461675A0896EA11C3383</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>bio.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/bio.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C3BE96335C9A12D87BCFF488</key>
+		<dict>
+			<key>fileRef</key>
+			<string>910D948F2EEE276F57DE0FF3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C56A664B2DC8D0A6EBA8BEA1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C368461675A0896EA11C3383</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C780AFC8F4125E09560CB809</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F804397A65D16A8222A9FBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C84673DBC3513B18FBC21523</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5F4494D263517D02387FAC95</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C90796241ECFEF02708E46A9</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>9D05AB86A056316131B6DB4B</string>
+				<string>FEFB9F121CAE2CA02841D62E</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>precompiled</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C2C3049183FBB987EF752194</key>
+		<key>CA5FA3048EDAAB5ACE34663B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>00A4A28EA1851A0DFF5A865D</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreAudio.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>C30B6C3DF48577B0B7D9C899</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF441F28433D59D31FB59DE7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3C315533AA6FA2BB92B4C81</key>
+		<key>CB6834FB458413F35E10D957</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2318,48 +2308,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>comp.h</string>
+			<string>ecdsa.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/comp.h</string>
+			<string>Pod/Library/include/openssl/ecdsa.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C6CEE9E467809D3C990DBF1D</key>
+		<key>CC320C4D1B15325C84A8E8FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>98BD159E79CF0AFD5B07A1F3</string>
+			<string>E19698C81940FA35E7A81189</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C87ABBDF083919CE1DEFBE5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1123B979E93C269545A8B432</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C92E129AB1931A6A2B6FB769</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BB7E6DC49392D1D67FB7C6D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9B780B072708ACDF28E8056</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8EC8FC2B17936C611DE8DCD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9F646B77A630950A2B02288</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A4D5259C63D7E1333BE3A30</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C9FF20132762353E889B797D</key>
+		<key>CDA6D6282B517A4CA23FE037</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2368,156 +2330,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>stack.h</string>
+			<string>e_os2.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/stack.h</string>
+			<string>Pod/Library/include/openssl/e_os2.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CC7DD8052609052D5E5F5B2D</key>
+		<key>CF9614238B008DDD51E2E150</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PLAudioStreamingKit.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pod/Library/include/PLAudioStreamingKit/PLAudioStreamingKit.h</string>
+			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CE33F0812429EE9E8FA9FA5B</key>
+		<key>D0D3B45C03BD8B7DA250507A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A163BB47A958831F82319461</string>
+			<string>D56F608AAB8A3D215397B66E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>CF441F28433D59D31FB59DE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>tls1.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/tls1.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFC03A76AE7B10B219082A99</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-PLAudioStreamingKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D011E8943FDA8E8C07F9ED71</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3C315533AA6FA2BB92B4C81</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D03680E56A28C49EB20631C2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E38A3CA49A9EB4FB5A75E81</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1B5A2481E96032E0D06995B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3973790F2A91057C6D13FAA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1E0D7108AAD78E7476C2262</key>
-		<dict>
-			<key>fileRef</key>
-			<string>51EC6CA3BCD51EF3F24D53E9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D222F8E1EA4933AFEC4341CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>err.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/err.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D469295DE104B0E987AF1CE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6F57198532EAA3950D28665</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D4A66157172246517410FD91</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>txt_db.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/txt_db.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6853B007AB2C8021425C34C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-PLAudioStreamingKit-PLAudioStreamingKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D6F57198532EAA3950D28665</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ssl3.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ssl3.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8A524FC6EB3277B80C60975</key>
+		<key>D0D7F2D9F53C7E479A7225C6</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -2584,28 +2423,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DAF0EFFD589634BB86385788</key>
-		<dict>
-			<key>fileRef</key>
-			<string>81919DF68DE3C55E8BB1F1B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB8448690A79E3B8AFF7E0FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F708AEAE571882585DFF1B6A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DCD28DAEB567309B4FF61722</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4A66157172246517410FD91</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE4F41C5D05A7C809C9CE1E7</key>
+		<key>D254EEFBD7DABE195E3189F6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2614,20 +2432,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>PLMacroDefines.h</string>
+			<string>x509_vfy.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/PLAudioStreamingKit/PLMacroDefines.h</string>
+			<string>Pod/Library/include/openssl/x509_vfy.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DF288D7716CBC001913D6981</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF6A755F97191B157EA99964</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E0FB0174EB29A5DAD3CAE847</key>
+		<key>D40F7BDA6F8FFADD4A39ABB4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2636,13 +2447,119 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>aes.h</string>
+			<string>asn1t.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/aes.h</string>
+			<string>Pod/Library/include/openssl/asn1t.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E15D20940F0141CA7BFB0D87</key>
+		<key>D416FC958379DC52CFF82433</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>des_old.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/des_old.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D457D5B50989BB5ABC5B53CE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3922E69271711B73F1E85CF8</string>
+				<string>CF9614238B008DDD51E2E150</string>
+				<string>1ECCDFCFA8ADFEE22A1D173D</string>
+				<string>11352522B954C2B7FABDE0BF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/Pods-PLAudioStreamingKit-PLAudioStreamingKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D514D8E58FC738D816040F80</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>00E0D8CF097FA4F256B2282F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D56F608AAB8A3D215397B66E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>stack.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/stack.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D76DB1E0A6B97B8C5466DAFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>hmac.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/hmac.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DAADB12FA9DB9381117AB00A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>evp.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/evp.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DAE4751A356DB526F618FF1D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>srp.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/srp.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCEBD30E1357E00A321B233E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2657,14 +2574,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E1E506FCAC5C1DBBA13760B6</key>
+		<key>DD554BE1458F02B1DA4D19B9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F640155C97FEFFBE85348377</string>
+			<string>F12BC02201B84E552DD68EF3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E26B44D9A45B5D33E46EA975</key>
+		<key>DF16B8ABD894670F560BB433</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E5A4A1705FA1CFCE8B39532B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DF5C1E50E073A0BCD0319955</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>dtls1.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/dtls1.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DFBD407E7490FB1ED975FA34</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FB7AA574751027783136F992</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DFBD6006B602CAA9B1FA8743</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2673,11 +2619,11 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-PLAudioStreamingKit.debug.xcconfig</string>
+			<string>Pods-PLAudioStreamingKit.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E371BDFAA16EE63AAD1AFBEA</key>
+		<key>E19698C81940FA35E7A81189</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2686,155 +2632,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>conf.h</string>
+			<string>dso.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/conf.h</string>
+			<string>Pod/Library/include/openssl/dso.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E398946F4278AB93D89E899D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EE0B2024A75FC53A277BA6C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E60593EE31ADF1216FBCFB66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EED41F586E7E2EEF989EE95B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E61B2A10CAE2B5C76B2D52DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E667AAEB34FB9299ADB877FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4213C2493B79FCCC20E0F72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA5DF90F33332F68CA0BEDCA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECB1BF30D527CFE24BBB12C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libcrypto-ios.a</string>
-			<key>path</key>
-			<string>Pod/Library/lib/libcrypto-ios.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECE2AD7DA55F250505322FDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E15D20940F0141CA7BFB0D87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE0B2024A75FC53A277BA6C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>objects.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/objects.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EED41F586E7E2EEF989EE95B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>idea.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/idea.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1D823A429A47337E936F861</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F38AF3715694A7C0CBF66FAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ossl_typ.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/ossl_typ.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3973790F2A91057C6D13FAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>opensslconf.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/opensslconf.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4213C2493B79FCCC20E0F72</key>
+		<key>E25553D6D00631401112154C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2849,7 +2653,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F488AFCCBADF88AB7A2EBB0A</key>
+		<key>E402117AA9FFFDA9C48DE34F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CB6834FB458413F35E10D957</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E474D24E76A58FFBA1444CBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30A5BA7F36A5F43375DF125C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E5A4A1705FA1CFCE8B39532B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2858,13 +2676,223 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>dsa.h</string>
+			<string>PLMacroDefines.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/dsa.h</string>
+			<string>Pod/Library/include/PLAudioStreamingKit/PLMacroDefines.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F592B1BD53482C2522689F9D</key>
+		<key>E737D46E8BB1A6E959D2089F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E7D7FD46BEAB6783F7110443</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E74D483E55ECF8E3ED92A00C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D3CE14344DEA07F76464E8C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E7D7FD46BEAB6783F7110443</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>camellia.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/camellia.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7F3C5A4B2AA76A37E542B5E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>lhash.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/lhash.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E80EE3BC6D4602AC94D649A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>idea.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/idea.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E92CBE777A4DC62B09D28CEB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ebcdic.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/ebcdic.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E9DB8682827A405D189058D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D40F7BDA6F8FFADD4A39ABB4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EA0AF97A97175DC7EE2421B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libcrypto-ios.a</string>
+			<key>path</key>
+			<string>Pod/Library/lib/libcrypto-ios.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA1ACCFF47BE1E5AB5CDE798</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>whrlpool.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/whrlpool.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBF975437C9E0AE0EE842156</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A195C229D54577C59F61851A</string>
+				<string>30385616C0C3F33485A1C018</string>
+				<string>7F016C3B613D52337CD84E87</string>
+				<string>AB90345A6C8D7F5159CCED20</string>
+				<string>EF078CB422ADD801F6F71A10</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED9FE5738BD5B6D282392D03</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>obj_mac.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/obj_mac.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EDA71A06381C9154EAC7B1D4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1DA1B9AA0DB31B690FEAB934</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EDBE6FFE6DC7C3463EFE08EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FB7AA574751027783136F992</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EF078CB422ADD801F6F71A10</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>73358A1DB57AE3A77A516951</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F12BC02201B84E552DD68EF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>aes.h</string>
+			<key>path</key>
+			<string>Pod/Library/include/openssl/aes.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F1E33F32B8921D4391B4DC6C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-PLAudioStreamingKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F49F7C575A1BD7FE01FC6AC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39384EAD2C28FF03C5C59DDA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F739D28DFD97F1521185EC8E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B756710987FF647E561AFF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F8BCA15CD794F0D2203DF9E0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2879,7 +2907,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F640155C97FEFFBE85348377</key>
+		<key>F90E8CDCB3651A1ACCCCE49F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2888,13 +2916,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>asn1.h</string>
+			<string>ssl.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/asn1.h</string>
+			<string>Pod/Library/include/openssl/ssl.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F708AEAE571882585DFF1B6A</key>
+		<key>F91E568AB375918851DDF92C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2903,13 +2931,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>md5.h</string>
+			<string>opensslconf.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/md5.h</string>
+			<string>Pod/Library/include/openssl/opensslconf.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8807056283C72086D7F2087</key>
+		<key>FB13F5CC71795E06A29A9526</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2918,13 +2946,26 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>cms.h</string>
+			<string>asn1_mac.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/cms.h</string>
+			<string>Pod/Library/include/openssl/asn1_mac.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FA05CB58806416020AD36CF0</key>
+		<key>FB7AA574751027783136F992</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>FE10434C9AF5CD42EDF1EF8A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2933,70 +2974,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>cast.h</string>
+			<string>bn.h</string>
 			<key>path</key>
-			<string>Pod/Library/include/openssl/cast.h</string>
+			<string>Pod/Library/include/openssl/bn.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FB3EC0F113EE121B0503BB7B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A3892CA76E2A05DA49A833C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC062242BDDB0D65ADA8B16D</key>
+		<key>FEFB9F121CAE2CA02841D62E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>CFC03A76AE7B10B219082A99</string>
-				<string>D6853B007AB2C8021425C34C</string>
+				<string>A3B1D4499ECA219B89FAEC4F</string>
+				<string>EA0AF97A97175DC7EE2421B5</string>
+				<string>F8BCA15CD794F0D2203DF9E0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD50EA4AF0A91FCEBCFF42B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F3D5C588ABF07A578DC4E80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FE4649A8552FB1B54B18B187</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-PLAudioStreamingKit-PLAudioStreamingKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEDB475ACA12AC1D35CF769E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>blowfish.h</string>
-			<key>path</key>
-			<string>Pod/Library/include/openssl/blowfish.h</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>56A42C8BFF78F79688F68F7E</string>
+	<string>AC091EB4FCFAB11E6B206819</string>
 </dict>
 </plist>

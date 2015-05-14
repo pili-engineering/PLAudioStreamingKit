@@ -128,5 +128,8 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 - iOS Target : >= iOS 7
 
 ## 版本历史
+
+- 1.0.1 ([Release Notes](https://github.com/pili-io/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.1.md)) && [API Diffs](https://github.com/pili-io/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.1.md))
+	- 修复杂音问题 
 - 1.0.0 ([Release Notes](https://github.com/pili-io/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.0.md))
 	- 发布 CocoaPods 版本
