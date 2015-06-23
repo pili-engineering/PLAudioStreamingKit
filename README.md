@@ -114,7 +114,7 @@ typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
 PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 开发者无需单独查阅文档，直接通过 Xcode 就可以查看接口和类的相关信息，减少不必要的麻烦。
 
-![Encode 推荐](https://github.com/pili-io/PLAudioStreamingKit/blob/master/header-doc.png?raw=true)
+![Encode 推荐](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/header-doc.png?raw=true)
 
 ## 功能特性
 
@@ -129,7 +129,9 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 
 ## 版本历史
 
-- 1.0.1 ([Release Notes](https://github.com/pili-io/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.1.md)) && [API Diffs](https://github.com/pili-io/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.1.md))
+- 1.0.2 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.2.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.2.md))
+	- 更新 repo 地址
+- 1.0.1 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.1.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.1.md))
 	- 修复杂音问题 
-- 1.0.0 ([Release Notes](https://github.com/pili-io/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.0.md))
+- 1.0.0 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.0.md))
 	- 发布 CocoaPods 版本

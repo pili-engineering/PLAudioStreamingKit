@@ -1,3 +1,0 @@
-PODS_PLAUDIOSTREAMINGKIT_PLAUDIOSTREAMINGKIT_HEADER_SEARCH_PATHS = ${PODS_ROOT}/PLAudioStreamingKit/PLAudioStreamingKit/lib/include
-PODS_PLAUDIOSTREAMINGKIT_PLAUDIOSTREAMINGKIT_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/../../Pod/Library/lib" "$(PODS_ROOT)/../../Pod/Library/lib" "$(PODS_ROOT)/../../Pod/Library/lib"
-PODS_PLAUDIOSTREAMINGKIT_PLAUDIOSTREAMINGKIT_OTHER_LDFLAGS = -l"PLAudioStreamingKit" -l"crypto-ios" -l"ssl-ios" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreAudio" -framework "UIKit"

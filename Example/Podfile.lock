@@ -1,16 +1,16 @@
 PODS:
-  - PLAudioStreamingKit (1.0.1):
-    - PLAudioStreamingKit/precompiled (= 1.0.1)
-  - PLAudioStreamingKit/precompiled (1.0.1)
+  - PLAudioStreamingKit (1.0.2):
+    - PLAudioStreamingKit/precompiled (= 1.0.2)
+  - PLAudioStreamingKit/precompiled (1.0.2)
 
 DEPENDENCIES:
   - PLAudioStreamingKit (from `../`)
 
 EXTERNAL SOURCES:
   PLAudioStreamingKit:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PLAudioStreamingKit: 660f2c34c1c3924dd14326d11ac56189bab52c24
+  PLAudioStreamingKit: ee3f178c1796252e5ff65ca1c8b13ba37cb0c613
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.2
