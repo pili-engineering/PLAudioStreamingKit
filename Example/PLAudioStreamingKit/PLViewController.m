@@ -9,9 +9,6 @@
 #import "PLViewController.h"
 #import <PLAudioStreamingKit/PLAudioStreamingKit.h>
 
-#warning 这里替换为你的推流地址
-#define PUSH_URL    @"YOUR_PUSH_URL_HERE"
-
 const char *stateNames[] = {
     "Unknow",
     "Connecting",
@@ -34,13 +31,24 @@ PLAudioStreamingSessionDelegate
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+#warning 仅为测试，发布的 App 中需要请求自有服务端获取 Stream
+    PLStream *stream = [PLStream streamWithJSON:@{@"id": @"STREAM_ID",
+                                                  @"title": @"STREAM_TITLE",
+                                                  @"hub": @"HUB_NAME",
+                                                  @"publishKey": @"PUBLISH_KEY",
+                                                  @"publishSecurity": @"dynamic",   // or static
+                                                  @"disabled": @(NO)}];
+    NSString *publishHost = @"YOUR_PUBLISH_HOST";
+    
     void (^permissionBlock)(void) = ^{
         PLAudioStreamingConfiguration *configuration = nil;
         
         // 默认配置
         configuration = [PLAudioStreamingConfiguration defaultConfiguration];
         
-        self.session = [[PLAudioStreamingSession alloc] initWithConfiguration:configuration];
+        self.session = [[PLAudioStreamingSession alloc] initWithConfiguration:configuration
+                                                                       stream:stream
+                                                              rtmpPublishHost:publishHost];
         self.session.delegate = self;
     };
     
@@ -88,7 +96,11 @@ PLAudioStreamingSessionDelegate
         [self.session stop];
     } else {
         self.actionButton.enabled = NO;
-        [self.session startWithPushURL:[NSURL URLWithString:PUSH_URL] completed:^(BOOL success) {
+        [self.session startWithCompleted:^(BOOL success) {
+            if (success) {
+                NSLog(@"Publish URL: %@", self.session.pushURL.absoluteString);
+            }
+            
             self.actionButton.enabled = YES;
         }];
     }

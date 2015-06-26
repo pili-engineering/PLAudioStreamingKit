@@ -12,6 +12,7 @@
 #import "PLAudioStreamingConfiguration.h"
 #import "PLMacroDefines.h"
 #import "PLTypeDefines.h"
+#import "PLStream.h"
 
 // post with userinfo @{@"state": @(state)}. always posted via MainQueue.
 extern NSString *PLStreamStateDidChangeNotification;
@@ -48,6 +49,12 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  */
 @property (nonatomic, PL_STRONG) PLAudioStreamingConfiguration *configuration;  // reset will not work until startWithPushURL: invoked.
 
+/// 流对象
+@property (nonatomic, PL_STRONG) PLStream   *stream;
+
+/// 推流 host 地址
+@property (nonatomic, PL_STRONG) NSString   *rtmpPublishHost;
+
 /*!
  * @property delegate
  *
@@ -83,7 +90,9 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  *
  * @return PLAudioStreamingSession 实例
  */
-- (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration;
+- (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration
+                               stream:(PLStream *)stream
+                      rtmpPublishHost:(NSString *)rtmpPublishHost;
 
 // RTMP Operations
 /*!
@@ -95,7 +104,7 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  *
  * @discussion 当调用过一次并且开始推流时，如果再调用该方法会直接返回不会做任何操作，尽管如此，也不要在没有断开时重复调用该方法。
  */
-- (void)startWithPushURL:(NSURL *)pushURL completed:(void (^)(BOOL success))handler;
+- (void)startWithCompleted:(void (^)(BOOL success))handler;
 
 /*!
  * 结束推流
@@ -142,5 +151,25 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 // Microphone
 + (PLAuthorizationStatus)microphoneAuthorizationStatus;
 + (void)requestMicrophoneAccessWithCompletionHandler:(void (^)(BOOL granted))handler;
+
+@end
+
+#pragma mark - Category (Deprecated)
+
+@interface PLAudioStreamingSession (Deprecated)
+
+/*!
+ * @deprecated
+ * 开始推流
+ *
+ * @param pushURL 推流地址
+ *
+ * @param handler 流连接的结果会通过该回调方法返回
+ *
+ * @discussion 当调用过一次并且开始推流时，如果再调用该方法会直接返回不会做任何操作，尽管如此，也不要在没有断开时重复调用该方法。
+ *
+ * @see - (void)startWithCompleted:
+ */
+- (void)startWithPushURL:(NSURL *)pushURL completed:(void (^)(BOOL success))handler DEPRECATED_ATTRIBUTE;
 
 @end

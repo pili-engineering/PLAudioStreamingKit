@@ -2,6 +2,16 @@
 
 PLAudioStreamingKit 是为 **pili 流媒体云服务** 流媒体云服务提供的一套音频直播流 SDK, 旨在解决 iOS 端快速、轻松实现 iOS 设备接入直播，便于 **pili 流媒体云服务** 的开发者专注于产品业务本身，而不必在技术细节上花费不必要的时间。
 
+## 功能特性
+
+- [x] 硬件编解码
+- [x] 多码率可选
+- [x] AAC 音频编码
+- [x] HeaderDoc 文档支持
+- [x] 内置生成安全的 RTMP 推流地址
+- [x] ARM64 支持
+- [x] 支持 RTMP 协议直播推流
+
 ## 内容摘要
 
 - [快速开始](#快速开始)
@@ -9,7 +19,6 @@ PLAudioStreamingKit 是为 **pili 流媒体云服务** 流媒体云服务提供�
 	- [示例代码](#示例代码)
 - [编码参数](#编码参数)
 - [文档支持](#文档支持)
-- [功能特性](#功能特性)
 - [系统要求](#系统要求)
 - [版本历史](#版本历史)
 
@@ -49,13 +58,26 @@ pod update
 
 ```PLAudioStreamingSession``` 是核心类，你只需要关注并使用这个类就可以完成通过摄像头推流、预览的工作
 
-推流前务必要先检查麦克风的授权，并记得设置预览界面
+推流前务必要先检查麦克风的授权，```StreamingSession``` 的创建需要 Stream 对象和 Publish host
 
 ```Objective-C
+// Stream 对象，正常情况该对象是从自有的服务端请求拿到的
+PLStream *stream = [PLStream streamWithJSON:@{@"id": @"STREAM_ID",
+                                              @"title": @"STREAM_TITLE",
+                                              @"hub": @"HUB_NAME",
+                                              @"publishKey": @"PUBLISH_KEY",
+                                              @"publishSecurity": @"dynamic", // or static
+                                              @"disabled": @(NO)}];
+
+// Publish host
+NSString *publishHost = @"YOUR_RTMP_PUBLISH_HOST";
+
 // 授权后执行
 void (^permissionBlock)(void) = ^{
-        PLCameraStreamingConfiguration *configuration = [PLCameraStreamingConfiguration defaultConfiguration];
-        self.session = [[PLAudioStreamingSession alloc] initWithConfiguration:configuration];
+        PLAudioStreamingConfiguration *configuration = [PLAudioStreamingConfiguration defaultConfiguration];
+        self.session = [[PLAudioStreamingSession alloc] initWithConfiguration:configuration
+                                                                        stream:stream
+                                                               rtmpPublishHost:publishHost];
         self.session.delegate = self;
 };
 
@@ -63,7 +85,7 @@ void (^noPermissionBlock)(void) = ^{ // 处理未授权情况 };
     
 // 检查麦克风是否有授权
 PLAuthorizationStatus status = [PLAudioStreamingSession microphoneAuthorizationStatus];
-   
+
 if (PLAuthorizationStatusNotDetermined == status) {
     [PLAudioStreamingSession requestMicrophoneAccessWithCompletionHandler:^(BOOL granted) {
         granted ? permissionBlock() : noPermissionBlock();
@@ -78,11 +100,12 @@ if (PLAuthorizationStatusNotDetermined == status) {
 推流操作
 
 ```Objective-C
-// 开始推流，这里的推流地址应该是你自己的服务端通过 pili 流媒体云服务请求到的
-[self.session startWithPushURL:[NSURL URLWithString:@"YOUR_RTMP_PUSH_URL_HERE"] completed:^(BOOL success) {
+// 开始推流，无论 security policy 是 static 还是 dynamic，都无需再单独计算推流地址
+[self.session startWithCompleted:^(BOOL success) {
 	// 这里的代码在主线程运行，所以可以放心对 UI 控件做操作
 	if (success) {
 		// 连接成功后的处理
+		// 成功后，在这里才可以读取 self.session.pushURL，start 失败和之前不能确保读取到正确的 URL
 	} else {
     	// 连接失败后的处理
 	}
@@ -116,19 +139,15 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 
 ![Encode 推荐](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/header-doc.png?raw=true)
 
-## 功能特性
-
-- [x] 硬件编解码
-- [x] 多码率可选
-- [x] AAC 音频编码
-- [x] HeaderDoc 文档支持
-
 ## 系统要求
 
 - iOS Target : >= iOS 7
 
 ## 版本历史
 
+- 1.1.0 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.0.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.0.md))
+	- 添加了 `PLStream` 类，支持 `Coding` 协议便于打包存储
+	- 更新 `StreamingSession` 创建方法，借助传递 `PLStream` 对象再无需推流时等待服务端生成推流地址
 - 1.0.2 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.2.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.2.md))
 	- 更新 repo 地址
 - 1.0.1 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.0.1.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.0.1.md))
