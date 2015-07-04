@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PLAudioStreamingKit"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Pili iOS AAC Audio streaming framework via RTMP."
   s.homepage         = "https://github.com/pili-engineering/PLAudioStreamingKit"
   s.license          = 'Apache License, Version 2.0'

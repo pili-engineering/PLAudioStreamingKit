@@ -11,12 +11,14 @@ PLAudioStreamingKit 是为 **pili 流媒体云服务** 流媒体云服务提供�
 - [x] 内置生成安全的 RTMP 推流地址
 - [x] ARM64 支持
 - [x] 支持 RTMP 协议直播推流
+- [x] 支持后台推流
 
 ## 内容摘要
 
 - [快速开始](#快速开始)
 	- [配置工程](#配置工程)
 	- [示例代码](#示例代码)
+- [后台推流](#后台推流)
 - [编码参数](#编码参数)
 - [文档支持](#文档支持)
 - [系统要求](#系统要求)
@@ -115,11 +117,42 @@ if (PLAuthorizationStatusNotDetermined == status) {
 [self.session stop];
 ```
 
+## 后台推流
+
+```PLAudioStreamingKit``` 提供了两种后台模式，分别为：
+
+```Objective-C
+typedef NS_ENUM(NSUInteger, PLAudioStreamingBackgroundMode) {
+    PLAudioStreamingBackgroundModeAutoStop = 0,
+    PLAudioStreamingBackgroundModeKeepAlive,
+    PLAudioStreamingBackgroundModeDefault = PLAudioStreamingBackgroundModeAutoStop
+};
+```
+
+如需 App 进入后台后仍然可以持续推流，只需要简单的配置即可。
+
+```
+// 将 PLAudioStreamingSession 实例的 backgroundMode 设置为 PLAudioStreamingBackgroundModeKeepAlive
+self.session.backgroundMode = PLAudioStreamingBackgroundModeKeepAlive;
+```
+开启工程的 ```Background Modes``` 中的 ```Audio and AirPlay```
+
+![BackgroundMode](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/Images/background-mode.png?raw=true)
+
+现在当你的 App 正在推流时，进入后台或关闭屏幕后，推流都将继续。
+
+你可以通过实现 ```delegate``` 的方法来获取即将开始后台推流任务和即将结束后台推流任务的回调
+
+```Objective-C
+- (void)audioStreamingSessionWillBeginBackgroundTask:(PLAudioStreamingSession *)session;
+- (void)audioStreamingSession:(PLAudioStreamingSession *)session willEndBackgroundTask:(BOOL)isExpirationOccurred;
+```
+
 ## 编码参数
 
 初始化 ```PLAudioStreamingConfiguration``` 时，可以指定 Bitrate
 
-```
+```Objective-C
 typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
     PLStreamingAudioBitRate_64Kbps = 64 * 1024,
     PLStreamingAudioBitRate_96Kbps = 96 * 1024,
@@ -137,7 +170,7 @@ typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
 PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 开发者无需单独查阅文档，直接通过 Xcode 就可以查看接口和类的相关信息，减少不必要的麻烦。
 
-![Encode 推荐](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/header-doc.png?raw=true)
+![Encode 推荐](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/Images/header-doc.png?raw=true)
 
 ## 系统要求
 
@@ -145,6 +178,9 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 
 ## 版本历史
 
+- 1.1.1 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.1.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.1.md))
+    - 添加后台推流支持
+    - 添加后台任务的回调
 - 1.1.0 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.0.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.0.md))
 	- 添加了 `PLStream` 类，支持 `Coding` 协议便于打包存储
 	- 更新 `StreamingSession` 创建方法，借助传递 `PLStream` 对象再无需推流时等待服务端生成推流地址

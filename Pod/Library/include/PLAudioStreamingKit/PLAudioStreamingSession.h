@@ -31,6 +31,9 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 - (void)audioStreamingSession:(PLAudioStreamingSession *)session streamStateDidChange:(PLStreamState)state;
 - (void)audioStreamingSession:(PLAudioStreamingSession *)session didGetMicrophoneAuthorizationStatus:(PLAuthorizationStatus)status;
 
+- (void)audioStreamingSessionWillBeginBackgroundTask:(PLAudioStreamingSession *)session;
+- (void)audioStreamingSession:(PLAudioStreamingSession *)session willEndBackgroundTask:(BOOL)isExpirationOccurred;
+
 @end
 
 /*!
@@ -82,6 +85,13 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  * @abstract 推流 URL，只读属性
  */
 @property (nonatomic, PL_STRONG, readonly) NSURL *pushURL;   // rtmp only now.
+
+/*!
+ * @property backgroundMode
+ *
+ * @abstract 音频推流的后台模式，默认为 PLAudioStreamingBackgroundModeAutoStop
+ */
+@property (nonatomic, assign) PLAudioStreamingBackgroundMode    backgroundMode;
 
 /*!
  * 初始化方法

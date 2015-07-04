@@ -31,10 +31,16 @@ typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
     PLStreamingAudioBitRate_Default = PLStreamingAudioBitRate_128Kbps
 };
 
+typedef NS_ENUM(NSUInteger, PLAudioStreamingBackgroundMode) {
+    PLAudioStreamingBackgroundModeAutoStop = 0,
+    PLAudioStreamingBackgroundModeKeepAlive,
+    PLAudioStreamingBackgroundModeDefault = PLAudioStreamingBackgroundModeAutoStop
+};
+
 typedef NS_ENUM(NSUInteger, PLStreamingNetworkType) {
     PLStreamingNetworkTypeCELL,
     PLStreamingNetworkTypeWiFi,
     PLStreamingNetworkTypeEither
-};
+} DEPRECATED_ATTRIBUTE;
 
 #endif

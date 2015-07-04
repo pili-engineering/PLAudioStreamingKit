@@ -50,6 +50,9 @@ PLAudioStreamingSessionDelegate
                                                                        stream:stream
                                                               rtmpPublishHost:publishHost];
         self.session.delegate = self;
+        
+        // 支持后台推流
+        self.session.backgroundMode = PLAudioStreamingBackgroundModeKeepAlive;
     };
     
     void (^noAccessBlock)(void) = ^{
@@ -86,6 +89,20 @@ PLAudioStreamingSessionDelegate
         [self.actionButton setTitle:NSLocalizedString(@"Stop", nil) forState:UIControlStateNormal];
     } else {
         [self.actionButton setTitle:NSLocalizedString(@"Start", nil) forState:UIControlStateNormal];
+    }
+}
+
+- (void)audioStreamingSessionWillBeginBackgroundTask:(PLAudioStreamingSession *)session {
+    NSLog(@"Background Task Will Begin.");
+}
+
+- (void)audioStreamingSession:(PLAudioStreamingSession *)session willEndBackgroundTask:(BOOL)isExpirationOccurred {
+    NSLog(@"Background Task Will End.");
+    if (isExpirationOccurred) {
+        // 因为 App 在后台时间超过了苹果给予的时间，此时你可以从产品层面考虑做一些操作，比如提醒直播者重新打开 App 以便继续推流
+        UILocalNotification *localNotification = [[UILocalNotification alloc] init];
+        localNotification.alertBody = NSLocalizedString(@"Your live will be stopped", nil);
+        [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
     }
 }
 
