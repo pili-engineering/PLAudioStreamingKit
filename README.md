@@ -1,6 +1,6 @@
 # PLAudioStreamingKit
 
-PLAudioStreamingKit 是为 **pili 流媒体云服务** 流媒体云服务提供的一套音频直播流 SDK, 旨在解决 iOS 端快速、轻松实现 iOS 设备接入直播，便于 **pili 流媒体云服务** 的开发者专注于产品业务本身，而不必在技术细节上花费不必要的时间。
+PLAudioStreamingKit 是一个适用于 iOS 的 RTMP 直播推流 SDK，可高度定制化和二次开发。特色是支持 iOS 麦克风音频采样并进行 AAC 硬编码；同时，还支持后台持续推流。
 
 ## 功能特性
 
