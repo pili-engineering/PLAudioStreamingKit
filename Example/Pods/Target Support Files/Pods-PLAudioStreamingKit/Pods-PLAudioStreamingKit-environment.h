@@ -10,11 +10,11 @@
 #define COCOAPODS_POD_AVAILABLE_PLAudioStreamingKit
 #define COCOAPODS_VERSION_MAJOR_PLAudioStreamingKit 1
 #define COCOAPODS_VERSION_MINOR_PLAudioStreamingKit 1
-#define COCOAPODS_VERSION_PATCH_PLAudioStreamingKit 2
+#define COCOAPODS_VERSION_PATCH_PLAudioStreamingKit 3
 
 // PLAudioStreamingKit/precompiled
 #define COCOAPODS_POD_AVAILABLE_PLAudioStreamingKit_precompiled
 #define COCOAPODS_VERSION_MAJOR_PLAudioStreamingKit_precompiled 1
 #define COCOAPODS_VERSION_MINOR_PLAudioStreamingKit_precompiled 1
-#define COCOAPODS_VERSION_PATCH_PLAudioStreamingKit_precompiled 2
+#define COCOAPODS_VERSION_PATCH_PLAudioStreamingKit_precompiled 3
 

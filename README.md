@@ -177,6 +177,9 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 - iOS Target : >= iOS 7
 
 ## 版本历史
+
+- 1.1.3 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.3.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.3.md))
+    - 修复暂停麦克风时出现的卡顿问题
 - 1.1.2 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.2.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.2.md))
     - 修复在未推流情况下进入后台仍占用音频资源的问题
 - 1.1.1 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.1.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.1.md))
