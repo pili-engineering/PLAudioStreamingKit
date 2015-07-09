@@ -178,6 +178,8 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 
 ## 版本历史
 
+- 1.1.4 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.4.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.4.md))
+    - 更新麦克风调用，提升启动和停用麦克风的效率
 - 1.1.3 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.3.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.3.md))
     - 修复暂停麦克风时出现的卡顿问题
 - 1.1.2 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.2.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.2.md))
