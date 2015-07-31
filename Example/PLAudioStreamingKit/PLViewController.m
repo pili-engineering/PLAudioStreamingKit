@@ -7,6 +7,7 @@
 //
 
 #import "PLViewController.h"
+#import "Reachability.h"
 #import <PLAudioStreamingKit/PLAudioStreamingKit.h>
 
 const char *stateNames[] = {
@@ -17,12 +18,19 @@ const char *stateNames[] = {
     "Error"
 };
 
+const char *networkStatus[] = {
+    "Not Reachable",
+    "Reachable via WiFi",
+    "Reachable via CELL"
+};
+
 @interface PLViewController ()
 <
 PLAudioStreamingSessionDelegate
 >
 
 @property (nonatomic, strong) PLAudioStreamingSession  *session;
+@property (nonatomic, strong) Reachability *internetReachability;
 
 @end
 
@@ -30,6 +38,11 @@ PLAudioStreamingSessionDelegate
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 网络状态监控
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    self.internetReachability = [Reachability reachabilityForInternetConnection];
+    [self.internetReachability startNotifier];
     
 #warning 仅为测试，发布的 App 中需要请求自有服务端获取 Stream
     PLStream *stream = [PLStream streamWithJSON:@{@"id": @"STREAM_ID",
@@ -77,6 +90,26 @@ PLAudioStreamingSessionDelegate
         default:
             noAccessBlock();
             break;
+    }
+}
+
+- (void)dealloc {
+    [self.session destroy];
+    self.session = nil;
+}
+
+#pragma mark - Notification Handler
+
+- (void)reachabilityChanged:(NSNotification *)notif{
+    Reachability *curReach = [notif object];
+    NSParameterAssert([curReach isKindOfClass:[Reachability class]]);
+    NetworkStatus status = [curReach currentReachabilityStatus];
+    
+    NSLog(@"Networkt Status: %s", networkStatus[status]);
+    
+    if (NotReachable == status) {
+        // 对断网情况做处理
+        [self.session stop];
     }
 }
 

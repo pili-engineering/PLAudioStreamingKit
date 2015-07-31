@@ -75,7 +75,9 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 /*!
  * @property isRunning
  *
- * @abstract 是否在推流，只读属性
+ * @abstract 是否开始推流，只读属性
+ * 
+ * @discussion 该状态表达的是 streamingSession 有没有开始推流。当 streamState 为 PLStreamStateConnecting 或者 PLStreamStateConnected 时, isRunning 都会为 YES，所以它为 YES 时并不表示流一定已经建立连接，其从广义上表达 streamingSession 作为客户端对象的状态。
  */
 @property (nonatomic, assign, readonly) BOOL                        isRunning;
 
@@ -103,6 +105,13 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 - (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration
                                stream:(PLStream *)stream
                       rtmpPublishHost:(NSString *)rtmpPublishHost;
+
+/*!
+ * 销毁 session 的方法
+ *
+ * @discussion 销毁 StreamingSession 的方法，销毁前不需要调用 stop 方法。
+ */
+- (void)destroy;
 
 // RTMP Operations
 /*!

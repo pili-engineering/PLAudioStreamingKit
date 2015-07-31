@@ -117,6 +117,12 @@ if (PLAuthorizationStatusNotDetermined == status) {
 [self.session stop];
 ```
 
+销毁推流 Session
+
+```
+[self.session destroy];
+```
+
 ## 后台推流
 
 ```PLAudioStreamingKit``` 提供了两种后台模式，分别为：
@@ -154,16 +160,16 @@ self.session.backgroundMode = PLAudioStreamingBackgroundModeKeepAlive;
 
 ```Objective-C
 typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
-    PLStreamingAudioBitRate_64Kbps = 64 * 1024,
-    PLStreamingAudioBitRate_96Kbps = 96 * 1024,
-    PLStreamingAudioBitRate_128Kbps = 128 * 1024,
+    PLStreamingAudioBitRate_64Kbps = 64000,
+    PLStreamingAudioBitRate_96Kbps = 96000,
+    PLStreamingAudioBitRate_128Kbps = 128000,
     PLStreamingAudioBitRate_Default = PLStreamingAudioBitRate_128Kbps
 };
 ```
 
 默认的 configuration 使用 128Kbps 码率。
 
-当前版本采样率恒定为 48000
+当前版本采样率恒定为 44100
 
 ## 文档支持
 
@@ -178,6 +184,13 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 
 ## 版本历史
 
+- 1.1.5 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.5.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.5.md))
+    - 修复断网后停止流时导致的 UI 卡死
+    - 修复停止推流时概率出现的 crash 问题
+    - 修复反复进出持有 streamingSession 的 viewController 出现 IO 错误或者 crash 的问题
+    - 修复开始推流时因主线程占用导致网络不佳时的卡顿问题
+    - 添加 `- (void)destroy` 方法到 `PLAudioStreamingSession`
+    - 恢复了 96Kbps 的音频码率
 - 1.1.4 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.4.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.4.md))
     - 更新麦克风调用，提升启动和停用麦克风的效率
 - 1.1.3 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.3.md)) && [API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.3.md))

@@ -17,6 +17,7 @@
 		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
 		6003F5A7195388D20070C39A /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		76F1BC891B6B0AAD00AB873D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F1BC881B6B0AAD00AB873D /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		68B9A5A759FF07245FAA2637 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6C64005C23C61D6A9DE09F90 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76F1BC871B6B0AAD00AB873D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		76F1BC881B6B0AAD00AB873D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		86B43C78F03F94A84F5D81EB /* Pods-PLAudioStreamingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLAudioStreamingKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLAudioStreamingKit/Pods-PLAudioStreamingKit.release.xcconfig"; sourceTree = "<group>"; };
 		8A519E6B06FC076C2775233F /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24291FB47991B8219E34902 /* PLAudioStreamingKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PLAudioStreamingKit.podspec; path = ../PLAudioStreamingKit.podspec; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
 				6003F5A5195388D20070C39A /* PLViewController.h */,
 				6003F5A6195388D20070C39A /* PLViewController.m */,
+				76F1BC871B6B0AAD00AB873D /* Reachability.h */,
+				76F1BC881B6B0AAD00AB873D /* Reachability.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -248,6 +253,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PLViewController.m in Sources */,
+				76F1BC891B6B0AAD00AB873D /* Reachability.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

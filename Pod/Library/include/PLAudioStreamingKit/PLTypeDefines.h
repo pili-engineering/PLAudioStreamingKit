@@ -25,9 +25,9 @@ typedef NS_ENUM(NSUInteger, PLStreamState) {
 };
 
 typedef NS_ENUM(NSUInteger, PLStreamingAudioBitRate) {
-    PLStreamingAudioBitRate_64Kbps = 64 * 1024,
-    PLStreamingAudioBitRate_96Kbps = 96 * 1024,
-    PLStreamingAudioBitRate_128Kbps = 128 * 1024,
+    PLStreamingAudioBitRate_64Kbps = 64000,
+    PLStreamingAudioBitRate_96Kbps = 96000,
+    PLStreamingAudioBitRate_128Kbps = 128000,
     PLStreamingAudioBitRate_Default = PLStreamingAudioBitRate_128Kbps
 };
 
