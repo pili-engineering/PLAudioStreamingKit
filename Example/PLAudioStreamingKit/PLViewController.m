@@ -108,7 +108,7 @@ PLAudioStreamingSessionDelegate
     NSLog(@"Networkt Status: %s", networkStatus[status]);
     
     if (NotReachable == status) {
-        // 对断网情况做处理
+        // 对断网情况做处理 
         [self.session stop];
     }
 }
