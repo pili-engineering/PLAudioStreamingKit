@@ -103,8 +103,7 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
  * @return PLAudioStreamingSession 实例
  */
 - (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration
-                               stream:(PLStream *)stream
-                      rtmpPublishHost:(NSString *)rtmpPublishHost;
+                               stream:(PLStream *)stream;
 
 /*!
  * 销毁 session 的方法
@@ -176,6 +175,20 @@ extern NSString *PLMicrophoneAuthorizationStatusDidGetNotificaiton;
 #pragma mark - Category (Deprecated)
 
 @interface PLAudioStreamingSession (Deprecated)
+
+/*!
+ * @deprecated
+ * 初始化方法
+ *
+ * @param configuration 用于音频编码的配置信息
+ *
+ * @return PLAudioStreamingSession 实例
+ *
+ * @see - (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration stream:(PLStream *)stream;
+ */
+- (instancetype)initWithConfiguration:(PLAudioStreamingConfiguration *)configuration
+                               stream:(PLStream *)stream
+                      rtmpPublishHost:(NSString *)rtmpPublishHost DEPRECATED_ATTRIBUTE;
 
 /*!
  * @deprecated

@@ -51,7 +51,6 @@ PLAudioStreamingSessionDelegate
                                                   @"publishKey": @"PUBLISH_KEY",
                                                   @"publishSecurity": @"dynamic",   // or static
                                                   @"disabled": @(NO)}];
-    NSString *publishHost = @"YOUR_PUBLISH_HOST";
     
     void (^permissionBlock)(void) = ^{
         PLAudioStreamingConfiguration *configuration = nil;
@@ -60,8 +59,7 @@ PLAudioStreamingSessionDelegate
         configuration = [PLAudioStreamingConfiguration defaultConfiguration];
         
         self.session = [[PLAudioStreamingSession alloc] initWithConfiguration:configuration
-                                                                       stream:stream
-                                                              rtmpPublishHost:publishHost];
+                                                                       stream:stream];
         self.session.delegate = self;
         
         // 支持后台推流

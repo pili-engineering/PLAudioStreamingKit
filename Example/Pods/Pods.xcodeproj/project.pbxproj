@@ -7,342 +7,342 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1791EB3E988FE2223049BB57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CB83411A7AD30B88788864 /* Foundation.framework */; };
-		3BFF9F5188712B2840CBC652 /* Pods-PLAudioStreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9F2930757A8A081B92074 /* Pods-PLAudioStreamingKit-dummy.m */; };
+		1D4BDD3436D143DB6DFF72B6 /* Pods-PLAudioStreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8592687735155A98DEF0FA00 /* Pods-PLAudioStreamingKit-dummy.m */; };
+		F510FE4C17561F823F40FD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1B34BD1E25A890822EA67F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07A0B635C54DE64277BB153C /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
-		0C0D25FD955BD44AB7C59780 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
-		0C508CA51A85175635950151 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
-		10CB83411A7AD30B88788864 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		116B3C817E771CE9C1FFEF77 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
-		1663C9E8934EDF58DBDF0655 /* Pods-PLAudioStreamingKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLAudioStreamingKit-acknowledgements.plist"; sourceTree = "<group>"; };
-		173E1627E84140401A5807DB /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
-		1A5C101388FF62CCB788B379 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
-		1AC3DB64EEDCFC94166FE753 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
-		1C42270F96549E6E0980A997 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		1E9FD3090A2DEB07738FFE0D /* Pods-PLAudioStreamingKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLAudioStreamingKit-resources.sh"; sourceTree = "<group>"; };
-		1F279F1103F77CA8C909FAB9 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
-		24BB7B249348E7170BF6C6E4 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
-		25CB3CFB6E340C7C78A75026 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
-		26C59528834455BDF0265D7B /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
-		27D2E60C086E21254DF92FD4 /* PLTypeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLTypeDefines.h; sourceTree = "<group>"; };
-		289F3E23929D279D1BE4D1AE /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
-		2AE4CE93ED423D4B82A6628F /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
-		2BA2AAE0EE7586D3FBB4FE76 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
-		2C4B3A1651CA87A82039B382 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
-		30EA19C505CF5FCDCFCA559A /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
-		315D58810D630771C3935C8F /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
-		3372E15167A7F69CE220F630 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
-		38EB5D734B89C41E185BEA74 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
-		3B667B07CD6657B9657D9A9F /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
-		3BA826341EC5243E1BD49FEB /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
-		3BFEE9317D7B600DA6D08952 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		3DED06B926B10C36470B0918 /* Pods-PLAudioStreamingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLAudioStreamingKit.debug.xcconfig"; sourceTree = "<group>"; };
-		40B266D1C50F72BEA5121B83 /* libPLAudioStreamingKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPLAudioStreamingKit.a; path = Pod/Library/lib/libPLAudioStreamingKit.a; sourceTree = "<group>"; };
-		43B59D3302FB9217825B2FFE /* PLAudioStreamingConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingConfiguration.h; sourceTree = "<group>"; };
-		478F166DFEC426C3FD4EA81F /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
-		48DDCCFBE636E94FB85D8AF7 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
-		49E0940D7FD793FED356F400 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
-		4C712511E086AEBC99F3142C /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
-		4F03E68CECBFDC10F8A50AC2 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
-		551E76C6CBEE100FDD24FB55 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
-		5ABF201827F0B40CDAB6EFF7 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
-		6129D03738528B059704C0B7 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
-		62EBBC5696BED1BD2D5A0DF1 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
-		676830DBB49FB1D345B2D159 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
-		687F919BBB15632767F11810 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
-		6DA21F28B9748EF592EEFF49 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
-		6EE84824EFA11ECE64EA4FA2 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
-		7976233D3F690A6B6CC58BC6 /* Pods-PLAudioStreamingKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PLAudioStreamingKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		798BE3D3E94CB0735C362357 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
-		7A22B539D8054604FE08C4D9 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
-		7A2D8C45F98BD8B307ADCF34 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
-		7B54015F74AD4E9990959528 /* libcrypto-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libcrypto-ios.a"; path = "Pod/Library/lib/libcrypto-ios.a"; sourceTree = "<group>"; };
-		7CA83192306EA3E9FCC795D6 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		811F8404B6E6C7AD249D9D9A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		83D77E477E183CBD64375DF7 /* PLStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLStream.h; sourceTree = "<group>"; };
-		8C976AE867D976F6627E9697 /* libssl-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libssl-ios.a"; path = "Pod/Library/lib/libssl-ios.a"; sourceTree = "<group>"; };
-		906B86FEBCE4D439F5226602 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
-		90E6FF2AFE1FA5C514868678 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
-		92901E41F192742FE13379CA /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
-		996EE01E9CDB954A4904DCAF /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
-		9C219DDBBB00DE90A07D2801 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
-		A3F260824511E86C76610205 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		A47F917739178B8C9F1E263E /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
-		A4CF84379CA50DE4CA088ED3 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
-		B1E9F2930757A8A081B92074 /* Pods-PLAudioStreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PLAudioStreamingKit-dummy.m"; sourceTree = "<group>"; };
-		B2B05C18BA42FA3E9B3A93C0 /* PLAudioStreamingKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingKit.h; sourceTree = "<group>"; };
-		B5611141EEC9A9CBE1270F80 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
-		B756F30005AE8CAC530984BB /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
-		B9AD234ED6257990DB7A3A74 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		BB029D564E2226D2563C35E6 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
-		BC5301158CBEEABB6345EE74 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
-		BC662DA1D4BAAF8EF9CEF403 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
-		BE2FB2A2EDA2A557C1D2CF19 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
-		BF84997108875A07E5516F25 /* libPods-PLAudioStreamingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLAudioStreamingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C02307BADF07116DCAD7720B /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
-		C4A2C128F2ED62720A0F7153 /* PLMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMacroDefines.h; sourceTree = "<group>"; };
-		C5014175B6F25D9D93FFB5CF /* Pods-PLAudioStreamingKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PLAudioStreamingKit-environment.h"; sourceTree = "<group>"; };
-		C52E794C86B92768DB3CAC7A /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
-		CA230B479C76CE1BD8968194 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
-		CA919A7418AD0DBE69A484B7 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
-		D08B1694A9689694AE51FF73 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
-		D1A06DEE2319DE88920E4FF0 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
-		D2A0C2D6560D7E93B5B6C4F0 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
-		D47A62238BDEFD6C6C4356F2 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
-		D51E49DD5D7CE405CAB8E6C9 /* PLAudioStreamingSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingSession.h; sourceTree = "<group>"; };
-		D8249D24230A6452761D50CF /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
-		D8CB57EEFBAD40B453271667 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
-		DC0A41F8B2B6C4DA040A9C61 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
-		DCAF4EE71CCE90C5AB3BB99A /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
-		E200DB9924F2A19F6D9475A4 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
-		E8AD14BA4D7A48B765A76B19 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
-		EC49158AFC81B3259BEE2E17 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
-		F44265CE1CF94CD50EFE74A7 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
-		F50C2E9DC2C00C407C110E20 /* Pods-PLAudioStreamingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLAudioStreamingKit.release.xcconfig"; sourceTree = "<group>"; };
-		F54097BEF8F710FB82224D39 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
-		F67CC214746544BA6EB083DF /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
-		F781D46AFE4CDEB70D63CF36 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
-		F8226EAA3CA7A427305BD27B /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		01D100816030F12486836C1F /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		070CACC6004C0CC28CE5EBAA /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		155A202781F3F55C59EACC0C /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		1AB4D09CD3CD70B1AC51127A /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		1AB8A3E61A68CE85D6D4C67D /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		1B3D0F81E050F875FBCF13B3 /* PLStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLStream.h; sourceTree = "<group>"; };
+		1B4483D593A1F721715B7A18 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		20363B56A615DE9E36ADA77E /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		21140A7DB94161CA9678BFA1 /* PLAudioStreamingConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingConfiguration.h; sourceTree = "<group>"; };
+		240D1202556A8C91516256A2 /* Pods-PLAudioStreamingKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PLAudioStreamingKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26503E5A759A33EE2F0AFC2F /* PLAudioStreamingSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingSession.h; sourceTree = "<group>"; };
+		2D134AB6D9DF980FAE01089A /* libssl-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libssl-ios.a"; path = "Pod/Library/lib/libssl-ios.a"; sourceTree = "<group>"; };
+		2E0F32CA046FEF7EFB2C9DCF /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		2E500D0EA8298D2BF11F5137 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		30F412172B452776BE0DC2A3 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		323FB28689E03491488FF900 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		33CBED919FC8C8B60AE6CC9F /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		3D9A7377E4C623A3DD61DD46 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		40FB523374136A6B5E2CAF94 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		410DFC02562C412AA7A6E577 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		4391BFEA9E81632AA1412461 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		44A19650645B13DE7FB51D51 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		462A18D6652ED63C4EAE00FE /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		480269B42B1954BC1387A456 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		483AD76807E29D85ADB6A8E7 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		4866C29000D51A382D52238B /* PLMacroDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLMacroDefines.h; sourceTree = "<group>"; };
+		4F98C297339B5079FDD1FAF1 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		545EA01DF0F3F6B31CE68E15 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		55B3D481BD18985F02E0CF20 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		581D0526CC974FE050C19908 /* libPLAudioStreamingKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPLAudioStreamingKit.a; path = Pod/Library/lib/libPLAudioStreamingKit.a; sourceTree = "<group>"; };
+		5B607A1356D1A5BA417B9D50 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		5BDE92D9E2AA4EF6B0000B72 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		5D60C9B08EAE43AF6CAC7361 /* PLAudioStreamingKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLAudioStreamingKit.h; sourceTree = "<group>"; };
+		5E477DB4CDCE3E8A3AB682F8 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		61854DB6A3549713BD7ADC7A /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		645A7FC59480E02D66E0C3E8 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		6800E377D4FC0A8FD7BA7D38 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		69C580B917D0D995A248F454 /* Pods-PLAudioStreamingKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PLAudioStreamingKit-environment.h"; sourceTree = "<group>"; };
+		6AA68E289FF267D956DFE2F7 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		6C5665CCAA3654DDF85EB352 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		6DB5615011928478B49E1E79 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		6E42EEABABFF19EC66C0C92B /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		6FA327F382E5D25AF3922181 /* Pods-PLAudioStreamingKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLAudioStreamingKit.release.xcconfig"; sourceTree = "<group>"; };
+		726E959C168760CE80477CEB /* libcrypto-ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libcrypto-ios.a"; path = "Pod/Library/lib/libcrypto-ios.a"; sourceTree = "<group>"; };
+		73FA4C9AEBE2AA88045A1E4A /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		753EB71140D0EF827FF2A246 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		8014642F7DB326D9589E7B40 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		82DBBF61C65DE190A22AE131 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		85609D0857779BE2D3B6BB06 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		8592687735155A98DEF0FA00 /* Pods-PLAudioStreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PLAudioStreamingKit-dummy.m"; sourceTree = "<group>"; };
+		881C330903DA363A59830C76 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		88609FD1F0974DC98FF51FEA /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		89A94C8F2F2B4788DA70F8DD /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		8A946108C66016B7EB619BCE /* PLTypeDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLTypeDefines.h; sourceTree = "<group>"; };
+		8F7D64C0E4C217743D7CABE7 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		9100D4C6C1E63BB55B192590 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		92382F472A3A7BE270B3C7C2 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		93FA1DC08A827850A4382B0B /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		963A9C52E9D86D3D7772B28B /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		96A086729B08CC822613ECF9 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		973CE20B0B6EE19818A4119D /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		9D5FFA1D008450E192EB5D4F /* Pods-PLAudioStreamingKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLAudioStreamingKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF9034A06385E5E344196AB /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		9DFF80EE978965DFD5924E69 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		9E43068FA39DFB01C4534EC2 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		9FCF72D71800FE7C7769FD74 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		AA6D775AA1FA81EFA81F6692 /* Pods-PLAudioStreamingKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLAudioStreamingKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		B08BD44F97729A765A034335 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		B681E666FE09EF482213F59B /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		B6B45F2CD789CBC4D5EB86E4 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		BCE5ABCAB70E32EED9B6DB42 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		BDBB2A1ABB67518CBD6D70E6 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		CAE7C7491A2F37EF88134DE9 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		CB90A553BE27AC051EEC4038 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		CD17D917CD0C8C88C77F5D51 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		CF545D40996360FECFC09EE2 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		CFBDE39534C8CDFF1CE10F9A /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		D1D6876B704146B9B0FC69A3 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		D660F1D339C0C0BC34006942 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		DDBA76E4B3D96BDA572687A0 /* libPods-PLAudioStreamingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLAudioStreamingKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0691AEA0258DD2634494623 /* Pods-PLAudioStreamingKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLAudioStreamingKit-resources.sh"; sourceTree = "<group>"; };
+		E141593A5EAD903B1BFF8ED6 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		E5D3024977A59A05197097EF /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		E5F287CBF77BF243892344B8 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		EB4542512823A4BB23A74A9D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EBDF1510AC13297D8AEC5A92 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		EE4999B7F06FB50A43B13BFB /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		EF1B34BD1E25A890822EA67F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2252930C82FEF04B262C175 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		F258A4D36CA9C84A62AA6BA1 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		F26A622CFF82E9AA8E2385A9 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		F97F3BFA5866DA01DB3985AD /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		FA344ABAA86FEA7045A7AC74 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		FB21B53AFA2B50CE0AC3008D /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE25BE5BBC44C2662C8E5D59 /* Frameworks */ = {
+		D464480851153F11B824DA53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1791EB3E988FE2223049BB57 /* Foundation.framework in Frameworks */,
+				F510FE4C17561F823F40FD82 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06D68C847FDDD72E6BA48F25 /* Frameworks */ = {
+		2171AEDAC979103EFEA7677D /* Pods-PLAudioStreamingKit */ = {
 			isa = PBXGroup;
 			children = (
-				40B266D1C50F72BEA5121B83 /* libPLAudioStreamingKit.a */,
-				7B54015F74AD4E9990959528 /* libcrypto-ios.a */,
-				8C976AE867D976F6627E9697 /* libssl-ios.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		19031E398F3569BCE75F934C /* PLAudioStreamingKit */ = {
-			isa = PBXGroup;
-			children = (
-				8B98A99F16F5B975BFDAC7A1 /* Pod */,
-				1CE81CC9FF91D967C789B9AF /* precompiled */,
-			);
-			name = PLAudioStreamingKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		190EBCEB0586578AB7C39F01 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19031E398F3569BCE75F934C /* PLAudioStreamingKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1CE81CC9FF91D967C789B9AF /* precompiled */ = {
-			isa = PBXGroup;
-			children = (
-				06D68C847FDDD72E6BA48F25 /* Frameworks */,
-			);
-			name = precompiled;
-			sourceTree = "<group>";
-		};
-		330F411523B3351FC04F9DC2 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				B676671C3AF92AE38A486E53 /* PLAudioStreamingKit */,
-				B17CDCBB7C22A75DCC91EFB0 /* openssl */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		4E2851C96D1C6E20C160EDA7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7811534AFC5765943E103CB4 /* Pods-PLAudioStreamingKit */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		535979C0A84738529E10D7B4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BF84997108875A07E5516F25 /* libPods-PLAudioStreamingKit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7811534AFC5765943E103CB4 /* Pods-PLAudioStreamingKit */ = {
-			isa = PBXGroup;
-			children = (
-				7976233D3F690A6B6CC58BC6 /* Pods-PLAudioStreamingKit-acknowledgements.markdown */,
-				1663C9E8934EDF58DBDF0655 /* Pods-PLAudioStreamingKit-acknowledgements.plist */,
-				B1E9F2930757A8A081B92074 /* Pods-PLAudioStreamingKit-dummy.m */,
-				C5014175B6F25D9D93FFB5CF /* Pods-PLAudioStreamingKit-environment.h */,
-				1E9FD3090A2DEB07738FFE0D /* Pods-PLAudioStreamingKit-resources.sh */,
-				3DED06B926B10C36470B0918 /* Pods-PLAudioStreamingKit.debug.xcconfig */,
-				F50C2E9DC2C00C407C110E20 /* Pods-PLAudioStreamingKit.release.xcconfig */,
+				240D1202556A8C91516256A2 /* Pods-PLAudioStreamingKit-acknowledgements.markdown */,
+				AA6D775AA1FA81EFA81F6692 /* Pods-PLAudioStreamingKit-acknowledgements.plist */,
+				8592687735155A98DEF0FA00 /* Pods-PLAudioStreamingKit-dummy.m */,
+				69C580B917D0D995A248F454 /* Pods-PLAudioStreamingKit-environment.h */,
+				E0691AEA0258DD2634494623 /* Pods-PLAudioStreamingKit-resources.sh */,
+				9D5FFA1D008450E192EB5D4F /* Pods-PLAudioStreamingKit.debug.xcconfig */,
+				6FA327F382E5D25AF3922181 /* Pods-PLAudioStreamingKit.release.xcconfig */,
 			);
 			name = "Pods-PLAudioStreamingKit";
 			path = "Target Support Files/Pods-PLAudioStreamingKit";
 			sourceTree = "<group>";
 		};
-		8B98A99F16F5B975BFDAC7A1 /* Pod */ = {
+		376CEE6F47CB7B66B0703408 /* PLAudioStreamingKit */ = {
 			isa = PBXGroup;
 			children = (
-				97C6B0D4E1852EFEF51032A0 /* Library */,
+				C5473107D7FB715D20E1C333 /* Pod */,
+				6DEB53157058AF5C37B250C1 /* precompiled */,
 			);
-			path = Pod;
+			name = PLAudioStreamingKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		95CC91FB7E66983AEF3608A4 /* Frameworks */ = {
+		435AA8BFA1582244D6DE5C10 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				B19AD031367DE619FB803058 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		96A2B2FBA6B5FE43047FB90E = {
-			isa = PBXGroup;
-			children = (
-				811F8404B6E6C7AD249D9D9A /* Podfile */,
-				190EBCEB0586578AB7C39F01 /* Development Pods */,
-				95CC91FB7E66983AEF3608A4 /* Frameworks */,
-				535979C0A84738529E10D7B4 /* Products */,
-				4E2851C96D1C6E20C160EDA7 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		97C6B0D4E1852EFEF51032A0 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				330F411523B3351FC04F9DC2 /* include */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		B17CDCBB7C22A75DCC91EFB0 /* openssl */ = {
-			isa = PBXGroup;
-			children = (
-				7CA83192306EA3E9FCC795D6 /* aes.h */,
-				9C219DDBBB00DE90A07D2801 /* asn1.h */,
-				C02307BADF07116DCAD7720B /* asn1_mac.h */,
-				BC5301158CBEEABB6345EE74 /* asn1t.h */,
-				48DDCCFBE636E94FB85D8AF7 /* bio.h */,
-				1A5C101388FF62CCB788B379 /* blowfish.h */,
-				5ABF201827F0B40CDAB6EFF7 /* bn.h */,
-				798BE3D3E94CB0735C362357 /* buffer.h */,
-				CA919A7418AD0DBE69A484B7 /* camellia.h */,
-				2AE4CE93ED423D4B82A6628F /* cast.h */,
-				4C712511E086AEBC99F3142C /* cmac.h */,
-				BE2FB2A2EDA2A557C1D2CF19 /* cms.h */,
-				7A22B539D8054604FE08C4D9 /* comp.h */,
-				A4CF84379CA50DE4CA088ED3 /* conf.h */,
-				C52E794C86B92768DB3CAC7A /* conf_api.h */,
-				E200DB9924F2A19F6D9475A4 /* crypto.h */,
-				D47A62238BDEFD6C6C4356F2 /* des.h */,
-				24BB7B249348E7170BF6C6E4 /* des_old.h */,
-				B756F30005AE8CAC530984BB /* dh.h */,
-				3372E15167A7F69CE220F630 /* dsa.h */,
-				F44265CE1CF94CD50EFE74A7 /* dso.h */,
-				D2A0C2D6560D7E93B5B6C4F0 /* dtls1.h */,
-				F67CC214746544BA6EB083DF /* e_os2.h */,
-				DCAF4EE71CCE90C5AB3BB99A /* ebcdic.h */,
-				07A0B635C54DE64277BB153C /* ec.h */,
-				0C0D25FD955BD44AB7C59780 /* ecdh.h */,
-				3BFEE9317D7B600DA6D08952 /* ecdsa.h */,
-				EC49158AFC81B3259BEE2E17 /* engine.h */,
-				7A2D8C45F98BD8B307ADCF34 /* err.h */,
-				26C59528834455BDF0265D7B /* evp.h */,
-				1C42270F96549E6E0980A997 /* hmac.h */,
-				2BA2AAE0EE7586D3FBB4FE76 /* idea.h */,
-				1F279F1103F77CA8C909FAB9 /* krb5_asn.h */,
-				0C508CA51A85175635950151 /* kssl.h */,
-				478F166DFEC426C3FD4EA81F /* lhash.h */,
-				116B3C817E771CE9C1FFEF77 /* md4.h */,
-				289F3E23929D279D1BE4D1AE /* md5.h */,
-				BC662DA1D4BAAF8EF9CEF403 /* mdc2.h */,
-				6EE84824EFA11ECE64EA4FA2 /* modes.h */,
-				38EB5D734B89C41E185BEA74 /* obj_mac.h */,
-				687F919BBB15632767F11810 /* objects.h */,
-				6129D03738528B059704C0B7 /* ocsp.h */,
-				F54097BEF8F710FB82224D39 /* opensslconf.h */,
-				551E76C6CBEE100FDD24FB55 /* opensslv.h */,
-				D08B1694A9689694AE51FF73 /* ossl_typ.h */,
-				25CB3CFB6E340C7C78A75026 /* pem.h */,
-				315D58810D630771C3935C8F /* pem2.h */,
-				DC0A41F8B2B6C4DA040A9C61 /* pkcs12.h */,
-				E8AD14BA4D7A48B765A76B19 /* pkcs7.h */,
-				173E1627E84140401A5807DB /* pqueue.h */,
-				D8CB57EEFBAD40B453271667 /* rand.h */,
-				3B667B07CD6657B9657D9A9F /* rc2.h */,
-				B5611141EEC9A9CBE1270F80 /* rc4.h */,
-				996EE01E9CDB954A4904DCAF /* ripemd.h */,
-				2C4B3A1651CA87A82039B382 /* rsa.h */,
-				A47F917739178B8C9F1E263E /* safestack.h */,
-				62EBBC5696BED1BD2D5A0DF1 /* seed.h */,
-				4F03E68CECBFDC10F8A50AC2 /* sha.h */,
-				906B86FEBCE4D439F5226602 /* srp.h */,
-				30EA19C505CF5FCDCFCA559A /* srtp.h */,
-				CA230B479C76CE1BD8968194 /* ssl.h */,
-				676830DBB49FB1D345B2D159 /* ssl2.h */,
-				92901E41F192742FE13379CA /* ssl23.h */,
-				F8226EAA3CA7A427305BD27B /* ssl3.h */,
-				A3F260824511E86C76610205 /* stack.h */,
-				6DA21F28B9748EF592EEFF49 /* symhacks.h */,
-				1AC3DB64EEDCFC94166FE753 /* tls1.h */,
-				3BA826341EC5243E1BD49FEB /* ts.h */,
-				BB029D564E2226D2563C35E6 /* txt_db.h */,
-				90E6FF2AFE1FA5C514868678 /* ui.h */,
-				49E0940D7FD793FED356F400 /* ui_compat.h */,
-				D1A06DEE2319DE88920E4FF0 /* whrlpool.h */,
-				D8249D24230A6452761D50CF /* x509.h */,
-				F781D46AFE4CDEB70D63CF36 /* x509_vfy.h */,
-				B9AD234ED6257990DB7A3A74 /* x509v3.h */,
+				5BDE92D9E2AA4EF6B0000B72 /* aes.h */,
+				CF545D40996360FECFC09EE2 /* asn1.h */,
+				480269B42B1954BC1387A456 /* asn1_mac.h */,
+				5E477DB4CDCE3E8A3AB682F8 /* asn1t.h */,
+				93FA1DC08A827850A4382B0B /* bio.h */,
+				9100D4C6C1E63BB55B192590 /* blowfish.h */,
+				CB90A553BE27AC051EEC4038 /* bn.h */,
+				EE4999B7F06FB50A43B13BFB /* buffer.h */,
+				9DF9034A06385E5E344196AB /* camellia.h */,
+				F258A4D36CA9C84A62AA6BA1 /* cast.h */,
+				881C330903DA363A59830C76 /* cmac.h */,
+				30F412172B452776BE0DC2A3 /* cms.h */,
+				9E43068FA39DFB01C4534EC2 /* comp.h */,
+				FB21B53AFA2B50CE0AC3008D /* conf.h */,
+				D660F1D339C0C0BC34006942 /* conf_api.h */,
+				E5D3024977A59A05197097EF /* crypto.h */,
+				1AB4D09CD3CD70B1AC51127A /* des.h */,
+				8F7D64C0E4C217743D7CABE7 /* des_old.h */,
+				645A7FC59480E02D66E0C3E8 /* dh.h */,
+				F26A622CFF82E9AA8E2385A9 /* dsa.h */,
+				01D100816030F12486836C1F /* dso.h */,
+				B08BD44F97729A765A034335 /* dtls1.h */,
+				973CE20B0B6EE19818A4119D /* e_os2.h */,
+				44A19650645B13DE7FB51D51 /* ebcdic.h */,
+				410DFC02562C412AA7A6E577 /* ec.h */,
+				82DBBF61C65DE190A22AE131 /* ecdh.h */,
+				73FA4C9AEBE2AA88045A1E4A /* ecdsa.h */,
+				33CBED919FC8C8B60AE6CC9F /* engine.h */,
+				F2252930C82FEF04B262C175 /* err.h */,
+				4391BFEA9E81632AA1412461 /* evp.h */,
+				96A086729B08CC822613ECF9 /* hmac.h */,
+				3D9A7377E4C623A3DD61DD46 /* idea.h */,
+				462A18D6652ED63C4EAE00FE /* krb5_asn.h */,
+				155A202781F3F55C59EACC0C /* kssl.h */,
+				CAE7C7491A2F37EF88134DE9 /* lhash.h */,
+				E141593A5EAD903B1BFF8ED6 /* md4.h */,
+				545EA01DF0F3F6B31CE68E15 /* md5.h */,
+				483AD76807E29D85ADB6A8E7 /* mdc2.h */,
+				BDBB2A1ABB67518CBD6D70E6 /* modes.h */,
+				85609D0857779BE2D3B6BB06 /* obj_mac.h */,
+				323FB28689E03491488FF900 /* objects.h */,
+				6AA68E289FF267D956DFE2F7 /* ocsp.h */,
+				1AB8A3E61A68CE85D6D4C67D /* opensslconf.h */,
+				61854DB6A3549713BD7ADC7A /* opensslv.h */,
+				4F98C297339B5079FDD1FAF1 /* ossl_typ.h */,
+				6DB5615011928478B49E1E79 /* pem.h */,
+				FA344ABAA86FEA7045A7AC74 /* pem2.h */,
+				5B607A1356D1A5BA417B9D50 /* pkcs12.h */,
+				8014642F7DB326D9589E7B40 /* pkcs7.h */,
+				753EB71140D0EF827FF2A246 /* pqueue.h */,
+				89A94C8F2F2B4788DA70F8DD /* rand.h */,
+				6800E377D4FC0A8FD7BA7D38 /* rc2.h */,
+				92382F472A3A7BE270B3C7C2 /* rc4.h */,
+				CD17D917CD0C8C88C77F5D51 /* ripemd.h */,
+				9FCF72D71800FE7C7769FD74 /* rsa.h */,
+				6C5665CCAA3654DDF85EB352 /* safestack.h */,
+				6E42EEABABFF19EC66C0C92B /* seed.h */,
+				F97F3BFA5866DA01DB3985AD /* sha.h */,
+				E5F287CBF77BF243892344B8 /* srp.h */,
+				20363B56A615DE9E36ADA77E /* srtp.h */,
+				BCE5ABCAB70E32EED9B6DB42 /* ssl.h */,
+				40FB523374136A6B5E2CAF94 /* ssl2.h */,
+				963A9C52E9D86D3D7772B28B /* ssl23.h */,
+				EBDF1510AC13297D8AEC5A92 /* ssl3.h */,
+				D1D6876B704146B9B0FC69A3 /* stack.h */,
+				2E500D0EA8298D2BF11F5137 /* symhacks.h */,
+				88609FD1F0974DC98FF51FEA /* tls1.h */,
+				55B3D481BD18985F02E0CF20 /* ts.h */,
+				1B4483D593A1F721715B7A18 /* txt_db.h */,
+				9DFF80EE978965DFD5924E69 /* ui.h */,
+				CFBDE39534C8CDFF1CE10F9A /* ui_compat.h */,
+				B6B45F2CD789CBC4D5EB86E4 /* whrlpool.h */,
+				B681E666FE09EF482213F59B /* x509.h */,
+				070CACC6004C0CC28CE5EBAA /* x509_vfy.h */,
+				2E0F32CA046FEF7EFB2C9DCF /* x509v3.h */,
 			);
 			path = openssl;
 			sourceTree = "<group>";
 		};
-		B19AD031367DE619FB803058 /* iOS */ = {
+		46694C6DDD68FF96B2B7C94F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10CB83411A7AD30B88788864 /* Foundation.framework */,
+				581D0526CC974FE050C19908 /* libPLAudioStreamingKit.a */,
+				726E959C168760CE80477CEB /* libcrypto-ios.a */,
+				2D134AB6D9DF980FAE01089A /* libssl-ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6488C085BA4D47B93BAC11DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				376CEE6F47CB7B66B0703408 /* PLAudioStreamingKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6510C20E49F9905FDB74C501 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B34BD1E25A890822EA67F /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B676671C3AF92AE38A486E53 /* PLAudioStreamingKit */ = {
+		6DEB53157058AF5C37B250C1 /* precompiled */ = {
 			isa = PBXGroup;
 			children = (
-				43B59D3302FB9217825B2FFE /* PLAudioStreamingConfiguration.h */,
-				B2B05C18BA42FA3E9B3A93C0 /* PLAudioStreamingKit.h */,
-				D51E49DD5D7CE405CAB8E6C9 /* PLAudioStreamingSession.h */,
-				C4A2C128F2ED62720A0F7153 /* PLMacroDefines.h */,
-				83D77E477E183CBD64375DF7 /* PLStream.h */,
-				27D2E60C086E21254DF92FD4 /* PLTypeDefines.h */,
+				46694C6DDD68FF96B2B7C94F /* Frameworks */,
+			);
+			name = precompiled;
+			sourceTree = "<group>";
+		};
+		7CE2178BE0BA00711251246A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6510C20E49F9905FDB74C501 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839BE2C06505A5E7CA288EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBA76E4B3D96BDA572687A0 /* libPods-PLAudioStreamingKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB47A4C07B63F80C5721468A = {
+			isa = PBXGroup;
+			children = (
+				EB4542512823A4BB23A74A9D /* Podfile */,
+				6488C085BA4D47B93BAC11DE /* Development Pods */,
+				7CE2178BE0BA00711251246A /* Frameworks */,
+				839BE2C06505A5E7CA288EE0 /* Products */,
+				DA85485B26C1DA61476796FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C5473107D7FB715D20E1C333 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F454E479B37C3B6325F960CA /* Library */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DA85485B26C1DA61476796FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2171AEDAC979103EFEA7677D /* Pods-PLAudioStreamingKit */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F137AAADEEA6447C80F376DB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F360D481369E6575043C1FCE /* PLAudioStreamingKit */,
+				435AA8BFA1582244D6DE5C10 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F360D481369E6575043C1FCE /* PLAudioStreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				21140A7DB94161CA9678BFA1 /* PLAudioStreamingConfiguration.h */,
+				5D60C9B08EAE43AF6CAC7361 /* PLAudioStreamingKit.h */,
+				26503E5A759A33EE2F0AFC2F /* PLAudioStreamingSession.h */,
+				4866C29000D51A382D52238B /* PLMacroDefines.h */,
+				1B3D0F81E050F875FBCF13B3 /* PLStream.h */,
+				8A946108C66016B7EB619BCE /* PLTypeDefines.h */,
 			);
 			path = PLAudioStreamingKit;
+			sourceTree = "<group>";
+		};
+		F454E479B37C3B6325F960CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F137AAADEEA6447C80F376DB /* include */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B447625C718EED04435B832D /* Pods-PLAudioStreamingKit */ = {
+		EF501480882A844D98854DB7 /* Pods-PLAudioStreamingKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2837EC087AC76C0D686C9D1 /* Build configuration list for PBXNativeTarget "Pods-PLAudioStreamingKit" */;
+			buildConfigurationList = F864F707A9FF3D04FA30C01E /* Build configuration list for PBXNativeTarget "Pods-PLAudioStreamingKit" */;
 			buildPhases = (
-				C0FEF63E9AFFF12291CADB05 /* Sources */,
-				FE25BE5BBC44C2662C8E5D59 /* Frameworks */,
+				58B75D1A96C5BAD759532BF0 /* Sources */,
+				D464480851153F11B824DA53 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,47 +350,97 @@
 			);
 			name = "Pods-PLAudioStreamingKit";
 			productName = "Pods-PLAudioStreamingKit";
-			productReference = BF84997108875A07E5516F25 /* libPods-PLAudioStreamingKit.a */;
+			productReference = DDBA76E4B3D96BDA572687A0 /* libPods-PLAudioStreamingKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		779C5FC62AE804F26E79E06A /* Project object */ = {
+		BDD4207377249E47434BE87D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = E3C379E10CD4173CD10F4AA3 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 7273A84EF5A8E3EB4CED0318 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 96A2B2FBA6B5FE43047FB90E;
-			productRefGroup = 535979C0A84738529E10D7B4 /* Products */;
+			mainGroup = AB47A4C07B63F80C5721468A;
+			productRefGroup = 839BE2C06505A5E7CA288EE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B447625C718EED04435B832D /* Pods-PLAudioStreamingKit */,
+				EF501480882A844D98854DB7 /* Pods-PLAudioStreamingKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0FEF63E9AFFF12291CADB05 /* Sources */ = {
+		58B75D1A96C5BAD759532BF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFF9F5188712B2840CBC652 /* Pods-PLAudioStreamingKit-dummy.m in Sources */,
+				1D4BDD3436D143DB6DFF72B6 /* Pods-PLAudioStreamingKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		429FFCF3692ACFE5CD78F87B /* Debug */ = {
+		0A8E86A6C57DFAEEE169FB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2E86672ACAC0443671DE2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA327F382E5D25AF3922181 /* Pods-PLAudioStreamingKit.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BD3F99D986F54B82F213F208 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,59 +479,9 @@
 			};
 			name = Debug;
 		};
-		5FDFA8D9B0EED2818B59AD52 /* Release */ = {
+		CC291D91AE00BC9437F2B170 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F50C2E9DC2C00C407C110E20 /* Pods-PLAudioStreamingKit.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		751568B6BC2597B5653630A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BB544427FB5AA0677F0FA272 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DED06B926B10C36470B0918 /* Pods-PLAudioStreamingKit.debug.xcconfig */;
+			baseConfigurationReference = 9D5FFA1D008450E192EB5D4F /* Pods-PLAudioStreamingKit.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -498,25 +498,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2837EC087AC76C0D686C9D1 /* Build configuration list for PBXNativeTarget "Pods-PLAudioStreamingKit" */ = {
+		7273A84EF5A8E3EB4CED0318 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB544427FB5AA0677F0FA272 /* Debug */,
-				5FDFA8D9B0EED2818B59AD52 /* Release */,
+				BD3F99D986F54B82F213F208 /* Debug */,
+				0A8E86A6C57DFAEEE169FB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3C379E10CD4173CD10F4AA3 /* Build configuration list for PBXProject "Pods" */ = {
+		F864F707A9FF3D04FA30C01E /* Build configuration list for PBXNativeTarget "Pods-PLAudioStreamingKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				429FFCF3692ACFE5CD78F87B /* Debug */,
-				751568B6BC2597B5653630A0 /* Release */,
+				CC291D91AE00BC9437F2B170 /* Debug */,
+				B2E86672ACAC0443671DE2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 779C5FC62AE804F26E79E06A /* Project object */;
+	rootObject = BDD4207377249E47434BE87D /* Project object */;
 }
