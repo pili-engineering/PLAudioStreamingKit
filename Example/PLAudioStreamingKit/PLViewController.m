@@ -45,22 +45,29 @@ PLAudioStreamingSessionDelegate
     [self.internetReachability startNotifier];
     
 #warning 仅为测试，发布的 App 中需要请求自有服务端获取 Stream
-    PLStream *stream = [PLStream streamWithJSON:@{@"id": @"STREAM_ID",
-                                                  @"title": @"STREAM_TITLE",
-                                                  @"hub": @"HUB_NAME",
-                                                  @"publishKey": @"PUBLISH_KEY",
-                                                  @"publishSecurity": @"dynamic",   // or static
-                                                  @"disabled": @(NO),
-                                                  @"profiles": @[], // @"480p", @"720p" or others
-                                                  @"hosts": @{
-                                                          @"publish": @{
-                                                                  @"rtmp": @"RTMP Publish Host"
-                                                          },
-                                                          @"play": @{
-                                                                  @"rtmp": @"RTMP Play Host",
-                                                                  @"hls": @"HLS Play Host"
-                                                          }
-                                                  }}];
+    //
+    // streamJSON 是从服务端拿回的
+    //
+    // 从服务端拿回的 streamJSON 结构如下：
+    //    @{@"id": @"stream_id",
+    //      @"title": @"stream_title",
+    //      @"hub": @"hub_name",
+    //      @"publishKey": @"publish_key",
+    //      @"publishSecurity": @"dynamic", // or static
+    //      @"disabled": @(NO),
+    //      @"profiles": @[@"480p", @"720p"],    // or empty Array []
+    //      @"hosts": @{
+    //              @"publish": @{
+    //                      @"rtmp": @"rtmp_publish_host"
+    //                      },
+    //              @"play": @{
+    //                      @"rtmp": @"rtmp_play_host",
+    //                      @"hls": @"hls_play_host"
+    //                      }
+    //              }
+    //      }
+    NSDictionary *streamJSON;
+    PLStream *stream = [PLStream streamWithJSON:streamJSON];
     
     void (^permissionBlock)(void) = ^{
         PLAudioStreamingConfiguration *configuration = nil;
