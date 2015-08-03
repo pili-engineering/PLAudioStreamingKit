@@ -50,7 +50,17 @@ PLAudioStreamingSessionDelegate
                                                   @"hub": @"HUB_NAME",
                                                   @"publishKey": @"PUBLISH_KEY",
                                                   @"publishSecurity": @"dynamic",   // or static
-                                                  @"disabled": @(NO)}];
+                                                  @"disabled": @(NO),
+                                                  @"profiles": @[], // @"480p", @"720p" or others
+                                                  @"hosts": @{
+                                                          @"publish": @{
+                                                                  @"rtmp": @"RTMP Publish Host"
+                                                          },
+                                                          @"play": @{
+                                                                  @"rtmp": @"RTMP Play Host",
+                                                                  @"hls": @"HLS Play Host"
+                                                          }
+                                                  }}];
     
     void (^permissionBlock)(void) = ^{
         PLAudioStreamingConfiguration *configuration = nil;
