@@ -187,6 +187,8 @@ PLAudioStreamingKit 通过 HeaderDoc 直接实现文档支持。
 - 1.1.6 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.6.md)) && ([API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.6.md))
     - 修复 URL 错误时导致的崩溃
     - 去除 SIGPIPE 断点
+    - 更新 Stream 结构
+    - 更新初始化 StreamingSession 的接口
 - 1.1.5 ([Release Notes](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/ReleaseNotes/release-notes-1.1.5.md)) && ([API Diffs](https://github.com/pili-engineering/PLAudioStreamingKit/blob/master/APIDiffs/api-diffs-1.1.5.md))
     - 修复断网后停止流时导致的 UI 卡死
     - 修复停止推流时概率出现的 crash 问题
